@@ -1,0 +1,42 @@
+{
+  "dataset": "evaluation/questions.json",
+  "question_count": 26,
+  "page_question_count": 19,
+  "overlap_ratio": 0.17,
+  "retrieval_limit": 3,
+  "embedding_model": "quentinz/bge-small-zh-v1.5",
+  "runs": [
+    {
+      "chunk_size": 200,
+      "chunk_overlap": 34,
+      "chunks": 2008,
+      "top3_page_hits": 19,
+      "top3_page_total": 19,
+      "average_retrieval_ms": 681.77
+    },
+    {
+      "chunk_size": 350,
+      "chunk_overlap": 60,
+      "chunks": 1237,
+      "top3_page_hits": 19,
+      "top3_page_total": 19,
+      "average_retrieval_ms": 858.8
+    },
+    {
+      "chunk_size": 500,
+      "chunk_overlap": 85,
+      "chunks": 947,
+      "top3_page_hits": 16,
+      "top3_page_total": 19,
+      "average_retrieval_ms": 703.53
+    },
+    {
+      "chunk_size": 800,
+      "chunk_overlap": 136,
+      "chunks": 645,
+      "top3_page_hits": 17,
+      "top3_page_total": 19,
+      "average_retrieval_ms": 712.34
+    }
+  ]
+}

@@ -1,0 +1,479 @@
+{
+  "protocol": {
+    "baseline_commit": "224a4d3",
+    "random_seed": 20261111,
+    "sampling": "Five manuals, four pages per manual; indexed page ranges, nonempty page text, excluding development question page numbers; questions drafted from source pages before retrieval.",
+    "config": {
+      "min_similarity": 0.58,
+      "service_page_min_similarity": 0.54,
+      "chunk_size": 350,
+      "chunk_overlap": 60,
+      "same_page_penalty": 0.05
+    },
+    "retrieval_limit": 3
+  },
+  "counts": {
+    "factual": 20,
+    "unanswerable": 5,
+    "page_hits": 16,
+    "document_hits": 18,
+    "unanswerable_rejections": 5
+  },
+  "results": [
+    {
+      "id": "H01",
+      "expected_document_id": "byd-qin-l-manual-2026",
+      "expected_pages": [
+        27
+      ],
+      "retrieved": [],
+      "page_hit": false,
+      "document_hit": false,
+      "rejected": null
+    },
+    {
+      "id": "H02",
+      "expected_document_id": "byd-qin-l-manual-2026",
+      "expected_pages": [
+        48
+      ],
+      "retrieved": [
+        {
+          "document_id": "byd-qin-l-manual-2026",
+          "page": 48
+        }
+      ],
+      "page_hit": true,
+      "document_hit": true,
+      "rejected": null
+    },
+    {
+      "id": "H03",
+      "expected_document_id": "byd-qin-l-manual-2026",
+      "expected_pages": [
+        64
+      ],
+      "retrieved": [
+        {
+          "document_id": "byd-qin-l-manual-2026",
+          "page": 28
+        },
+        {
+          "document_id": "byd-qin-l-manual-2026",
+          "page": 21
+        },
+        {
+          "document_id": "byd-qin-l-manual-2026",
+          "page": 64
+        }
+      ],
+      "page_hit": true,
+      "document_hit": true,
+      "rejected": null
+    },
+    {
+      "id": "H04",
+      "expected_document_id": "byd-qin-l-manual-2026",
+      "expected_pages": [
+        356
+      ],
+      "retrieved": [
+        {
+          "document_id": "byd-qin-l-manual-2026",
+          "page": 356
+        }
+      ],
+      "page_hit": true,
+      "document_hit": true,
+      "rejected": null
+    },
+    {
+      "id": "H05",
+      "expected_document_id": "byd-qin-plus-manual-2026",
+      "expected_pages": [
+        57
+      ],
+      "retrieved": [
+        {
+          "document_id": "byd-qin-plus-manual-2026",
+          "page": 57
+        },
+        {
+          "document_id": "byd-qin-plus-manual-2026",
+          "page": 364
+        },
+        {
+          "document_id": "byd-qin-plus-manual-2026",
+          "page": 380
+        }
+      ],
+      "page_hit": true,
+      "document_hit": true,
+      "rejected": null
+    },
+    {
+      "id": "H06",
+      "expected_document_id": "byd-qin-plus-manual-2026",
+      "expected_pages": [
+        352
+      ],
+      "retrieved": [
+        {
+          "document_id": "byd-qin-plus-manual-2026",
+          "page": 352
+        },
+        {
+          "document_id": "byd-qin-plus-manual-2026",
+          "page": 354
+        },
+        {
+          "document_id": "byd-qin-plus-manual-2026",
+          "page": 353
+        }
+      ],
+      "page_hit": true,
+      "document_hit": true,
+      "rejected": null
+    },
+    {
+      "id": "H07",
+      "expected_document_id": "byd-qin-plus-manual-2026",
+      "expected_pages": [
+        371
+      ],
+      "retrieved": [
+        {
+          "document_id": "byd-qin-plus-manual-2026",
+          "page": 371
+        },
+        {
+          "document_id": "byd-qin-plus-manual-2026",
+          "page": 54
+        },
+        {
+          "document_id": "byd-qin-plus-manual-2026",
+          "page": 53
+        }
+      ],
+      "page_hit": true,
+      "document_hit": true,
+      "rejected": null
+    },
+    {
+      "id": "H08",
+      "expected_document_id": "byd-qin-plus-manual-2026",
+      "expected_pages": [
+        382
+      ],
+      "retrieved": [
+        {
+          "document_id": "byd-qin-plus-manual-2026",
+          "page": 1
+        },
+        {
+          "document_id": "byd-qin-plus-manual-2026",
+          "page": 37
+        },
+        {
+          "document_id": "byd-qin-plus-manual-2026",
+          "page": 382
+        }
+      ],
+      "page_hit": true,
+      "document_hit": true,
+      "rejected": null
+    },
+    {
+      "id": "H09",
+      "expected_document_id": "byd-song-l-manual-2026",
+      "expected_pages": [
+        7
+      ],
+      "retrieved": [
+        {
+          "document_id": "byd-song-l-manual-2026",
+          "page": 8
+        }
+      ],
+      "page_hit": false,
+      "document_hit": true,
+      "rejected": null
+    },
+    {
+      "id": "H10",
+      "expected_document_id": "byd-song-l-manual-2026",
+      "expected_pages": [
+        13
+      ],
+      "retrieved": [
+        {
+          "document_id": "byd-song-l-manual-2026",
+          "page": 3
+        }
+      ],
+      "page_hit": false,
+      "document_hit": true,
+      "rejected": null
+    },
+    {
+      "id": "H11",
+      "expected_document_id": "byd-song-l-manual-2026",
+      "expected_pages": [
+        20
+      ],
+      "retrieved": [
+        {
+          "document_id": "byd-song-l-manual-2026",
+          "page": 20
+        },
+        {
+          "document_id": "byd-song-l-manual-2026",
+          "page": 42
+        },
+        {
+          "document_id": "byd-song-l-manual-2026",
+          "page": 43
+        }
+      ],
+      "page_hit": true,
+      "document_hit": true,
+      "rejected": null
+    },
+    {
+      "id": "H12",
+      "expected_document_id": "byd-song-l-manual-2026",
+      "expected_pages": [
+        32
+      ],
+      "retrieved": [
+        {
+          "document_id": "byd-song-l-manual-2026",
+          "page": 32
+        },
+        {
+          "document_id": "byd-song-l-manual-2026",
+          "page": 30
+        },
+        {
+          "document_id": "byd-song-l-manual-2026",
+          "page": 29
+        }
+      ],
+      "page_hit": true,
+      "document_hit": true,
+      "rejected": null
+    },
+    {
+      "id": "H13",
+      "expected_document_id": "byd-haiou-manual-2026",
+      "expected_pages": [
+        26
+      ],
+      "retrieved": [
+        {
+          "document_id": "byd-haiou-manual-2026",
+          "page": 24
+        },
+        {
+          "document_id": "byd-haiou-manual-2026",
+          "page": 26
+        },
+        {
+          "document_id": "byd-haiou-manual-2026",
+          "page": 25
+        }
+      ],
+      "page_hit": true,
+      "document_hit": true,
+      "rejected": null
+    },
+    {
+      "id": "H14",
+      "expected_document_id": "byd-haiou-manual-2026",
+      "expected_pages": [
+        45
+      ],
+      "retrieved": [
+        {
+          "document_id": "byd-haiou-manual-2026",
+          "page": 45
+        },
+        {
+          "document_id": "byd-haiou-manual-2026",
+          "page": 44
+        },
+        {
+          "document_id": "byd-haiou-manual-2026",
+          "page": 43
+        }
+      ],
+      "page_hit": true,
+      "document_hit": true,
+      "rejected": null
+    },
+    {
+      "id": "H15",
+      "expected_document_id": "byd-haiou-manual-2026",
+      "expected_pages": [
+        322
+      ],
+      "retrieved": [],
+      "page_hit": false,
+      "document_hit": false,
+      "rejected": null
+    },
+    {
+      "id": "H16",
+      "expected_document_id": "byd-haiou-manual-2026",
+      "expected_pages": [
+        324
+      ],
+      "retrieved": [
+        {
+          "document_id": "byd-haiou-manual-2026",
+          "page": 324
+        }
+      ],
+      "page_hit": true,
+      "document_hit": true,
+      "rejected": null
+    },
+    {
+      "id": "H17",
+      "expected_document_id": "byd-haishi-06-ev-manual-2026",
+      "expected_pages": [
+        17
+      ],
+      "retrieved": [
+        {
+          "document_id": "byd-haishi-06-ev-manual-2026",
+          "page": 17
+        },
+        {
+          "document_id": "byd-haishi-06-ev-manual-2026",
+          "page": 19
+        },
+        {
+          "document_id": "byd-haishi-06-ev-manual-2026",
+          "page": 17
+        }
+      ],
+      "page_hit": true,
+      "document_hit": true,
+      "rejected": null
+    },
+    {
+      "id": "H18",
+      "expected_document_id": "byd-haishi-06-ev-manual-2026",
+      "expected_pages": [
+        48
+      ],
+      "retrieved": [
+        {
+          "document_id": "byd-haishi-06-ev-manual-2026",
+          "page": 48
+        },
+        {
+          "document_id": "byd-haishi-06-ev-manual-2026",
+          "page": 51
+        },
+        {
+          "document_id": "byd-haishi-06-ev-manual-2026",
+          "page": 50
+        }
+      ],
+      "page_hit": true,
+      "document_hit": true,
+      "rejected": null
+    },
+    {
+      "id": "H19",
+      "expected_document_id": "byd-haishi-06-ev-manual-2026",
+      "expected_pages": [
+        50
+      ],
+      "retrieved": [
+        {
+          "document_id": "byd-haishi-06-ev-manual-2026",
+          "page": 50
+        },
+        {
+          "document_id": "byd-haishi-06-ev-manual-2026",
+          "page": 48
+        },
+        {
+          "document_id": "byd-haishi-06-ev-manual-2026",
+          "page": 51
+        }
+      ],
+      "page_hit": true,
+      "document_hit": true,
+      "rejected": null
+    },
+    {
+      "id": "H20",
+      "expected_document_id": "byd-haishi-06-ev-manual-2026",
+      "expected_pages": [
+        336
+      ],
+      "retrieved": [
+        {
+          "document_id": "byd-haishi-06-ev-manual-2026",
+          "page": 336
+        },
+        {
+          "document_id": "byd-haishi-06-ev-manual-2026",
+          "page": 341
+        }
+      ],
+      "page_hit": true,
+      "document_hit": true,
+      "rejected": null
+    },
+    {
+      "id": "HN01",
+      "expected_document_id": null,
+      "expected_pages": [],
+      "retrieved": [],
+      "page_hit": null,
+      "document_hit": null,
+      "rejected": true
+    },
+    {
+      "id": "HN02",
+      "expected_document_id": null,
+      "expected_pages": [],
+      "retrieved": [],
+      "page_hit": null,
+      "document_hit": null,
+      "rejected": true
+    },
+    {
+      "id": "HN03",
+      "expected_document_id": null,
+      "expected_pages": [],
+      "retrieved": [],
+      "page_hit": null,
+      "document_hit": null,
+      "rejected": true
+    },
+    {
+      "id": "HN04",
+      "expected_document_id": null,
+      "expected_pages": [],
+      "retrieved": [],
+      "page_hit": null,
+      "document_hit": null,
+      "rejected": true
+    },
+    {
+      "id": "HN05",
+      "expected_document_id": null,
+      "expected_pages": [],
+      "retrieved": [],
+      "page_hit": null,
+      "document_hit": null,
+      "rejected": true
+    }
+  ]
+}
