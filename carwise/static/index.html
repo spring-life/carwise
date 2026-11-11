@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5f7f6">
+  <title>车研 · 车型比较与资料检索</title>
+  <link rel="stylesheet" href="/static/styles.css">
+  <script src="/static/app.js" defer></script>
+</head>
+<body>
+  <header class="app-header">
+    <div class="header-inner">
+      <div class="brand" aria-label="车研">
+        <span class="brand-mark">研</span>
+        <span class="brand-name">车研</span>
+      </div>
+      <nav class="top-nav" aria-label="视图">
+        <button type="button" class="nav-tab is-active" data-view="directory">车型库</button>
+        <button type="button" class="nav-tab" data-view="compare">车型比较</button>
+        <button type="button" class="nav-tab" data-view="research">资料问答</button>
+        <button type="button" class="nav-tab" data-view="documents">资料库</button>
+      </nav>
+      <span id="index-state" class="index-state">载入中</span>
+    </div>
+  </header>
+
+  <div class="workspace">
+    <aside id="vehicle-sidebar" class="sidebar" aria-labelledby="selection-heading">
+      <div class="sidebar-heading">
+        <div>
+          <span class="section-kicker">中国大陆 · 2026 款</span>
+          <h2 id="selection-heading">选择配置</h2>
+        </div>
+        <span id="selection-count" class="selection-count">0 / 3</span>
+      </div>
+      <div id="vehicle-list" class="vehicle-list" aria-live="polite"></div>
+      <p class="sidebar-note">选择 2 至 3 个版本进行比较。价格为官网指导价，实际成交价可能不同。</p>
+    </aside>
+
+    <main class="main-content">
+      <section id="directory-view" class="view directory-view" aria-labelledby="directory-heading">
+        <div class="directory-intro">
+          <span class="section-kicker">中国大陆 · 官方资料</span>
+          <h1 id="directory-heading">先找到你想了解的车</h1>
+          <p>搜索品牌或车型，再选择具体年款和配置。价格与参数都保留来源和记录日期。</p>
+          <div class="directory-search">
+            <label class="sr-only" for="vehicle-search">搜索品牌或车型</label>
+            <input id="vehicle-search" type="search" placeholder="搜索品牌或车型，例如：海鸥、秦L、海狮06" autocomplete="off">
+            <span class="search-shortcut">⌘ K</span>
+          </div>
+        </div>
+        <div class="directory-toolbar">
+          <h2>车型目录</h2>
+          <span id="directory-count" class="data-label"></span>
+        </div>
+        <div id="model-grid" class="model-grid" aria-live="polite"></div>
+      </section>
+
+      <section id="compare-view" class="view" aria-labelledby="compare-heading">
+        <div class="page-heading">
+          <div>
+            <span class="section-kicker">配置与价格</span>
+            <h1 id="compare-heading">车型比较</h1>
+          </div>
+          <span class="data-label">数据均附来源</span>
+        </div>
+        <div id="compare-status" class="status-line" role="status"></div>
+        <p class="scroll-hint">左右滑动查看其他配置版本</p>
+        <div id="compare-content"></div>
+      </section>
+
+      <section id="documents-view" class="view" aria-labelledby="documents-heading" hidden>
+        <div class="page-heading">
+          <div>
+            <span class="section-kicker">本地资料</span>
+            <h1 id="documents-heading">资料库</h1>
+          </div>
+          <span class="data-label">资料只保存在本机</span>
+        </div>
+        <div class="document-layout">
+          <section class="upload-panel" aria-labelledby="upload-heading">
+            <h2 id="upload-heading">添加资料</h2>
+            <p>上传 PDF、HTML、Markdown 或 TXT，填写来源并关联至少一款车型。</p>
+            <form id="document-form" class="document-form">
+              <label>文件<input name="file" type="file" accept=".pdf,.html,.htm,.md,.txt" required></label>
+              <label>资料标题<input name="title" type="text" maxlength="120" placeholder="例如：2026款海鸥媒体试驾报告" required></label>
+              <label>来源链接<input name="source_url" type="url" placeholder="https://..." required></label>
+              <label>资料类型<select name="source_type"><option value="official">官方资料</option><option value="recall">召回公告</option><option value="review">第三方评测</option><option value="owner_report">用户个案</option></select></label>
+              <fieldset><legend>关联车型</legend><div id="document-vehicle-options" class="document-vehicle-options"></div></fieldset>
+              <button class="primary-button" type="submit">添加并建立索引</button>
+            </form>
+            <div id="document-status" class="status-line" role="status"></div>
+          </section>
+          <section class="document-list-panel" aria-labelledby="document-list-heading">
+            <div class="directory-toolbar"><h2 id="document-list-heading">已收录资料</h2><span id="document-count" class="data-label"></span></div>
+            <div id="document-list" class="document-list"></div>
+          </section>
+        </div>
+      </section>
+
+      <section id="research-view" class="view" aria-labelledby="research-heading" hidden>
+        <div class="page-heading">
+          <div>
+            <span class="section-kicker">原文检索</span>
+            <h1 id="research-heading">资料问答</h1>
+          </div>
+          <span class="data-label">回答附原文出处</span>
+        </div>
+        <form id="question-form" class="question-form">
+          <label for="question-input">你想了解什么？</label>
+          <div class="question-row">
+            <input id="question-input" name="question" type="search" maxlength="1000" autocomplete="off" placeholder="例如：秦L的胎压警告灯亮起时手册建议如何处理？" required>
+            <button id="ask-button" type="submit" class="primary-button">查询资料</button>
+          </div>
+        </form>
+        <div id="answer-status" class="status-line" role="status"></div>
+        <div id="answer-content" class="answer-content"></div>
+      </section>
+    </main>
+  </div>
+</body>
+</html>
+

@@ -1,0 +1,1469 @@
+[
+  {
+    "id": "byd-2026-qin-l-dm-i-1669",
+    "market": "中国大陆",
+    "make": "比亚迪",
+    "model": "秦L DM-i",
+    "year": 2026,
+    "trim": "128KM领先型",
+    "image_url": "https://cache.bydauto.com.cn/dilink_user_upload/manage/202601/08/1944268PHyqlTS.png",
+    "powertrain": "DM-i 插电混动",
+    "msrp": 106800,
+    "currency": "CNY",
+    "fuel_consumption": 2.79,
+    "fuel_unit": "L/100km",
+    "fuel_standard": "NEDC 亏电油耗",
+    "features": {
+      "轮胎规格": "225/55 R17",
+      "电机最大功率（kW）": "160",
+      "CLTC纯电续驶里程（km）": "128",
+      "电池容量（kWh）": "15.87",
+      "云辇-C智能阻尼车身控制系统": "无",
+      "高快领航辅助（HNOA）": "有",
+      "15.6英寸中控屏": "无",
+      "前排座椅通风加热": "无"
+    },
+    "sources": {
+      "specs": {
+        "title": "比亚迪官网：2026款秦L DM-i 参数对比",
+        "url": "https://www.byd.com/cn/parameter-comparison?goodsId=148",
+        "observed_on": "2026-11-11"
+      },
+      "price": {
+        "title": "比亚迪官网：2026款秦L DM-i 参数对比",
+        "url": "https://www.byd.com/cn/parameter-comparison?goodsId=148",
+        "observed_on": "2026-11-11"
+      },
+      "fuel": {
+        "title": "比亚迪官网：2026款秦L DM-i 参数对比",
+        "url": "https://www.byd.com/cn/parameter-comparison?goodsId=148",
+        "observed_on": "2026-11-11"
+      }
+    }
+  },
+  {
+    "id": "byd-2026-qin-l-dm-i-1682",
+    "market": "中国大陆",
+    "make": "比亚迪",
+    "model": "秦L DM-i",
+    "year": 2026,
+    "trim": "210KM超越型",
+    "image_url": "https://cache.bydauto.com.cn/dilink_user_upload/manage/202601/08/1944268PHyqlTS.png",
+    "powertrain": "DM-i 插电混动",
+    "msrp": 116800,
+    "currency": "CNY",
+    "fuel_consumption": 2.79,
+    "fuel_unit": "L/100km",
+    "fuel_standard": "NEDC 亏电油耗",
+    "features": {
+      "轮胎规格": "225/55 R17",
+      "电机最大功率（kW）": "175",
+      "CLTC纯电续驶里程（km）": "200/210（长续航）",
+      "电池容量（kWh）": "25.28",
+      "云辇-C智能阻尼车身控制系统": "无",
+      "高快领航辅助（HNOA）": "有",
+      "15.6英寸中控屏": "无",
+      "前排座椅通风加热": "有"
+    },
+    "sources": {
+      "specs": {
+        "title": "比亚迪官网：2026款秦L DM-i 参数对比",
+        "url": "https://www.byd.com/cn/parameter-comparison?goodsId=148",
+        "observed_on": "2026-11-11"
+      },
+      "price": {
+        "title": "比亚迪官网：2026款秦L DM-i 参数对比",
+        "url": "https://www.byd.com/cn/parameter-comparison?goodsId=148",
+        "observed_on": "2026-11-11"
+      },
+      "fuel": {
+        "title": "比亚迪官网：2026款秦L DM-i 参数对比",
+        "url": "https://www.byd.com/cn/parameter-comparison?goodsId=148",
+        "observed_on": "2026-11-11"
+      }
+    }
+  },
+  {
+    "id": "byd-2026-qin-l-dm-i-1683",
+    "market": "中国大陆",
+    "make": "比亚迪",
+    "model": "秦L DM-i",
+    "year": 2026,
+    "trim": "210KM云辇型",
+    "image_url": "https://cache.bydauto.com.cn/dilink_user_upload/manage/202601/08/1944268PHyqlTS.png",
+    "powertrain": "DM-i 插电混动",
+    "msrp": 126800,
+    "currency": "CNY",
+    "fuel_consumption": 2.79,
+    "fuel_unit": "L/100km",
+    "fuel_standard": "NEDC 亏电油耗",
+    "features": {
+      "轮胎规格": "225/50 R18",
+      "电机最大功率（kW）": "175",
+      "CLTC纯电续驶里程（km）": "200/210（长续航）",
+      "电池容量（kWh）": "25.28",
+      "云辇-C智能阻尼车身控制系统": "有",
+      "高快领航辅助（HNOA）": "有",
+      "15.6英寸中控屏": "有",
+      "前排座椅通风加热": "有"
+    },
+    "sources": {
+      "specs": {
+        "title": "比亚迪官网：2026款秦L DM-i 参数对比",
+        "url": "https://www.byd.com/cn/parameter-comparison?goodsId=148",
+        "observed_on": "2026-11-11"
+      },
+      "price": {
+        "title": "比亚迪官网：2026款秦L DM-i 参数对比",
+        "url": "https://www.byd.com/cn/parameter-comparison?goodsId=148",
+        "observed_on": "2026-11-11"
+      },
+      "fuel": {
+        "title": "比亚迪官网：2026款秦L DM-i 参数对比",
+        "url": "https://www.byd.com/cn/parameter-comparison?goodsId=148",
+        "observed_on": "2026-11-11"
+      }
+    }
+  },
+  {
+    "id": "byd-2026-qin-l-dm-i-1668",
+    "market": "中国大陆",
+    "make": "比亚迪",
+    "model": "秦L DM-i",
+    "year": 2026,
+    "trim": "128KM进取型",
+    "image_url": "https://cache.bydauto.com.cn/dilink_user_upload/manage/202601/08/1944268PHyqlTS.png",
+    "powertrain": "DM-i 插电混动",
+    "msrp": 96800,
+    "currency": "CNY",
+    "fuel_consumption": 2.79,
+    "fuel_unit": "L/100km",
+    "fuel_standard": "NEDC 亏电油耗",
+    "features": {
+      "轮胎规格": "225/60 R16",
+      "电机最大功率（kW）": "120",
+      "CLTC纯电续驶里程（km）": "128",
+      "电池容量（kWh）": "15.87",
+      "云辇-C智能阻尼车身控制系统": "无",
+      "高快领航辅助（HNOA）": "无",
+      "15.6英寸中控屏": "无",
+      "前排座椅通风加热": "无"
+    },
+    "sources": {
+      "specs": {
+        "title": "比亚迪官网：2026款秦L DM-i 参数对比",
+        "url": "https://www.byd.com/cn/parameter-comparison?goodsId=148",
+        "observed_on": "2026-11-11"
+      },
+      "price": {
+        "title": "比亚迪官网：2026款秦L DM-i 参数对比",
+        "url": "https://www.byd.com/cn/parameter-comparison?goodsId=148",
+        "observed_on": "2026-11-11"
+      },
+      "fuel": {
+        "title": "比亚迪官网：2026款秦L DM-i 参数对比",
+        "url": "https://www.byd.com/cn/parameter-comparison?goodsId=148",
+        "observed_on": "2026-11-11"
+      }
+    }
+  },
+  {
+    "id": "byd-2026-qin-plus-dm-i-1684",
+    "market": "中国大陆",
+    "make": "比亚迪",
+    "model": "秦PLUS DM-i",
+    "year": 2026,
+    "trim": "128KM进取型",
+    "image_url": "https://cache.bydauto.com.cn/dilink_user_upload/manage/202601/08/150914cmNkR6IG.png",
+    "powertrain": "DM-i 插电混动",
+    "msrp": 79800,
+    "currency": "CNY",
+    "fuel_consumption": 2.79,
+    "fuel_unit": "L/100km",
+    "fuel_standard": "NEDC 亏电油耗",
+    "features": {
+      "轮胎规格": "225/60 R16",
+      "电机最大功率（kW）": "120",
+      "CLTC纯电续驶里程（km）": "128",
+      "电池容量（kWh）": "15.87",
+      "高快领航辅助（HNOA）": "无"
+    },
+    "sources": {
+      "specs": {
+        "title": "比亚迪官网：2026款秦PLUS DM-i 参数对比",
+        "url": "https://www.byd.com/cn/parameter-comparison?goodsId=152",
+        "observed_on": "2026-11-11"
+      },
+      "price": {
+        "title": "比亚迪官网：2026款秦PLUS DM-i 参数对比",
+        "url": "https://www.byd.com/cn/parameter-comparison?goodsId=152",
+        "observed_on": "2026-11-11"
+      },
+      "fuel": {
+        "title": "比亚迪官网：2026款秦PLUS DM-i 参数对比",
+        "url": "https://www.byd.com/cn/parameter-comparison?goodsId=152",
+        "observed_on": "2026-11-11"
+      }
+    }
+  },
+  {
+    "id": "byd-2026-qin-plus-dm-i-1687",
+    "market": "中国大陆",
+    "make": "比亚迪",
+    "model": "秦PLUS DM-i",
+    "year": 2026,
+    "trim": "210KM进取型",
+    "image_url": "https://cache.bydauto.com.cn/dilink_user_upload/manage/202601/08/150914cmNkR6IG.png",
+    "powertrain": "DM-i 插电混动",
+    "msrp": 89800,
+    "currency": "CNY",
+    "fuel_consumption": 2.79,
+    "fuel_unit": "L/100km",
+    "fuel_standard": "NEDC 亏电油耗",
+    "features": {
+      "轮胎规格": "225/60 R16",
+      "电机最大功率（kW）": "120",
+      "CLTC纯电续驶里程（km）": "200/210（长续航）",
+      "电池容量（kWh）": "25.28",
+      "高快领航辅助（HNOA）": "无"
+    },
+    "sources": {
+      "specs": {
+        "title": "比亚迪官网：2026款秦PLUS DM-i 参数对比",
+        "url": "https://www.byd.com/cn/parameter-comparison?goodsId=152",
+        "observed_on": "2026-11-11"
+      },
+      "price": {
+        "title": "比亚迪官网：2026款秦PLUS DM-i 参数对比",
+        "url": "https://www.byd.com/cn/parameter-comparison?goodsId=152",
+        "observed_on": "2026-11-11"
+      },
+      "fuel": {
+        "title": "比亚迪官网：2026款秦PLUS DM-i 参数对比",
+        "url": "https://www.byd.com/cn/parameter-comparison?goodsId=152",
+        "observed_on": "2026-11-11"
+      }
+    }
+  },
+  {
+    "id": "byd-2026-qin-plus-dm-i-1686",
+    "market": "中国大陆",
+    "make": "比亚迪",
+    "model": "秦PLUS DM-i",
+    "year": 2026,
+    "trim": "210KM超越型",
+    "image_url": "https://cache.bydauto.com.cn/dilink_user_upload/manage/202601/08/150914cmNkR6IG.png",
+    "powertrain": "DM-i 插电混动",
+    "msrp": 99800,
+    "currency": "CNY",
+    "fuel_consumption": 2.79,
+    "fuel_unit": "L/100km",
+    "fuel_standard": "NEDC 亏电油耗",
+    "features": {
+      "轮胎规格": "225/60 R16",
+      "电机最大功率（kW）": "120",
+      "CLTC纯电续驶里程（km）": "200/210（长续航）",
+      "电池容量（kWh）": "25.28",
+      "高快领航辅助（HNOA）": "有"
+    },
+    "sources": {
+      "specs": {
+        "title": "比亚迪官网：2026款秦PLUS DM-i 参数对比",
+        "url": "https://www.byd.com/cn/parameter-comparison?goodsId=152",
+        "observed_on": "2026-11-11"
+      },
+      "price": {
+        "title": "比亚迪官网：2026款秦PLUS DM-i 参数对比",
+        "url": "https://www.byd.com/cn/parameter-comparison?goodsId=152",
+        "observed_on": "2026-11-11"
+      },
+      "fuel": {
+        "title": "比亚迪官网：2026款秦PLUS DM-i 参数对比",
+        "url": "https://www.byd.com/cn/parameter-comparison?goodsId=152",
+        "observed_on": "2026-11-11"
+      }
+    }
+  },
+  {
+    "id": "byd-2026-song-l-dm-i-1675",
+    "market": "中国大陆",
+    "make": "比亚迪",
+    "model": "宋L DM-i",
+    "year": 2026,
+    "trim": "130KM超越型",
+    "image_url": "https://cache.bydauto.com.cn/dilink_user_upload/manage/202510/23/111444wX0kAFMz.png",
+    "powertrain": "DM-i 插电混动",
+    "msrp": 139800,
+    "currency": "CNY",
+    "fuel_consumption": 3.4,
+    "fuel_unit": "L/100km",
+    "fuel_standard": "NEDC 亏电油耗",
+    "features": {
+      "轮胎规格": "235/50 R19",
+      "电机最大功率（kW）": "160",
+      "CLTC纯电续驶里程（km）": "130",
+      "电池容量（kWh）": "18.3",
+      "云辇-C智能阻尼车身控制系统": "有",
+      "高快领航辅助（HNOA）": "有",
+      "15.6英寸中控屏": "有"
+    },
+    "sources": {
+      "specs": {
+        "title": "比亚迪官网：2026款宋L DM-i 参数对比",
+        "url": "https://www.byd.com/cn/parameter-comparison?goodsId=150",
+        "observed_on": "2026-11-11"
+      },
+      "price": {
+        "title": "比亚迪官网：2026款宋L DM-i 参数对比",
+        "url": "https://www.byd.com/cn/parameter-comparison?goodsId=150",
+        "observed_on": "2026-11-11"
+      },
+      "fuel": {
+        "title": "比亚迪官网：2026款宋L DM-i 参数对比",
+        "url": "https://www.byd.com/cn/parameter-comparison?goodsId=150",
+        "observed_on": "2026-11-11"
+      }
+    }
+  },
+  {
+    "id": "byd-2026-song-l-dm-i-1674",
+    "market": "中国大陆",
+    "make": "比亚迪",
+    "model": "宋L DM-i",
+    "year": 2026,
+    "trim": "200KM超越型",
+    "image_url": "https://cache.bydauto.com.cn/dilink_user_upload/manage/202510/23/111444wX0kAFMz.png",
+    "powertrain": "DM-i 插电混动",
+    "msrp": 146800,
+    "currency": "CNY",
+    "fuel_consumption": 3.4,
+    "fuel_unit": "L/100km",
+    "fuel_standard": "NEDC 亏电油耗",
+    "features": {
+      "轮胎规格": "235/50 R19",
+      "电机最大功率（kW）": "160",
+      "CLTC纯电续驶里程（km）": "185/200（长续航模式）",
+      "电池容量（kWh）": "26.6",
+      "云辇-C智能阻尼车身控制系统": "有",
+      "高快领航辅助（HNOA）": "有",
+      "15.6英寸中控屏": "有"
+    },
+    "sources": {
+      "specs": {
+        "title": "比亚迪官网：2026款宋L DM-i 参数对比",
+        "url": "https://www.byd.com/cn/parameter-comparison?goodsId=150",
+        "observed_on": "2026-11-11"
+      },
+      "price": {
+        "title": "比亚迪官网：2026款宋L DM-i 参数对比",
+        "url": "https://www.byd.com/cn/parameter-comparison?goodsId=150",
+        "observed_on": "2026-11-11"
+      },
+      "fuel": {
+        "title": "比亚迪官网：2026款宋L DM-i 参数对比",
+        "url": "https://www.byd.com/cn/parameter-comparison?goodsId=150",
+        "observed_on": "2026-11-11"
+      }
+    }
+  },
+  {
+    "id": "byd-2026-song-l-dm-i-1673",
+    "market": "中国大陆",
+    "make": "比亚迪",
+    "model": "宋L DM-i",
+    "year": 2026,
+    "trim": "200KM卓越型",
+    "image_url": "https://cache.bydauto.com.cn/dilink_user_upload/manage/202510/23/111444wX0kAFMz.png",
+    "powertrain": "DM-i 插电混动",
+    "msrp": 156800,
+    "currency": "CNY",
+    "fuel_consumption": 3.4,
+    "fuel_unit": "L/100km",
+    "fuel_standard": "NEDC 亏电油耗",
+    "features": {
+      "轮胎规格": "235/50 R19",
+      "电机最大功率（kW）": "160",
+      "CLTC纯电续驶里程（km）": "185/200（长续航模式）",
+      "电池容量（kWh）": "26.6",
+      "云辇-C智能阻尼车身控制系统": "有",
+      "高快领航辅助（HNOA）": "有",
+      "15.6英寸中控屏": "有"
+    },
+    "sources": {
+      "specs": {
+        "title": "比亚迪官网：2026款宋L DM-i 参数对比",
+        "url": "https://www.byd.com/cn/parameter-comparison?goodsId=150",
+        "observed_on": "2026-11-11"
+      },
+      "price": {
+        "title": "比亚迪官网：2026款宋L DM-i 参数对比",
+        "url": "https://www.byd.com/cn/parameter-comparison?goodsId=150",
+        "observed_on": "2026-11-11"
+      },
+      "fuel": {
+        "title": "比亚迪官网：2026款宋L DM-i 参数对比",
+        "url": "https://www.byd.com/cn/parameter-comparison?goodsId=150",
+        "observed_on": "2026-11-11"
+      }
+    }
+  },
+  {
+    "id": "byd-2026-haishi-06-ev-1582",
+    "market": "中国大陆",
+    "make": "比亚迪",
+    "model": "海狮06EV",
+    "year": 2026,
+    "trim": "605领航版",
+    "image_url": "https://cache.bydoceanauto.com/manage/20260305/1772706572XFNEc7Ku.png",
+    "powertrain": "纯电",
+    "msrp": 159900,
+    "currency": "CNY",
+    "fuel_consumption": null,
+    "fuel_unit": null,
+    "fuel_standard": null,
+    "features": {
+      "轮胎规格": "235/55 R19",
+      "电池容量（kWh）": "69.07"
+    },
+    "sources": {
+      "specs": {
+        "title": "比亚迪官网：2026款海狮06EV 参数对比",
+        "url": "https://www.byd.com/cn/parameter-comparison?goodsId=10041",
+        "observed_on": "2026-11-11"
+      },
+      "price": {
+        "title": "比亚迪官网：2026款海狮06EV 参数对比",
+        "url": "https://www.byd.com/cn/parameter-comparison?goodsId=10041",
+        "observed_on": "2026-11-11"
+      }
+    }
+  },
+  {
+    "id": "byd-2026-haishi-06-ev-1584",
+    "market": "中国大陆",
+    "make": "比亚迪",
+    "model": "海狮06EV",
+    "year": 2026,
+    "trim": "605旗舰版",
+    "image_url": "https://cache.bydoceanauto.com/manage/20260305/1772706572XFNEc7Ku.png",
+    "powertrain": "纯电",
+    "msrp": 168900,
+    "currency": "CNY",
+    "fuel_consumption": null,
+    "fuel_unit": null,
+    "fuel_standard": null,
+    "features": {
+      "轮胎规格": "235/55 R19",
+      "电池容量（kWh）": "69.07"
+    },
+    "sources": {
+      "specs": {
+        "title": "比亚迪官网：2026款海狮06EV 参数对比",
+        "url": "https://www.byd.com/cn/parameter-comparison?goodsId=10041",
+        "observed_on": "2026-11-11"
+      },
+      "price": {
+        "title": "比亚迪官网：2026款海狮06EV 参数对比",
+        "url": "https://www.byd.com/cn/parameter-comparison?goodsId=10041",
+        "observed_on": "2026-11-11"
+      }
+    }
+  },
+  {
+    "id": "byd-2026-haishi-06-ev-1586",
+    "market": "中国大陆",
+    "make": "比亚迪",
+    "model": "海狮06EV",
+    "year": 2026,
+    "trim": "710远航版",
+    "image_url": "https://cache.bydoceanauto.com/manage/20260305/1772706572XFNEc7Ku.png",
+    "powertrain": "纯电",
+    "msrp": 168900,
+    "currency": "CNY",
+    "fuel_consumption": null,
+    "fuel_unit": null,
+    "fuel_standard": null,
+    "features": {
+      "轮胎规格": "235/55 R19",
+      "电池容量（kWh）": "82.73"
+    },
+    "sources": {
+      "specs": {
+        "title": "比亚迪官网：2026款海狮06EV 参数对比",
+        "url": "https://www.byd.com/cn/parameter-comparison?goodsId=10041",
+        "observed_on": "2026-11-11"
+      },
+      "price": {
+        "title": "比亚迪官网：2026款海狮06EV 参数对比",
+        "url": "https://www.byd.com/cn/parameter-comparison?goodsId=10041",
+        "observed_on": "2026-11-11"
+      }
+    }
+  },
+  {
+    "id": "byd-2026-haishi-06-ev-1583",
+    "market": "中国大陆",
+    "make": "比亚迪",
+    "model": "海狮06EV",
+    "year": 2026,
+    "trim": "605领航版（天神之眼B）",
+    "image_url": "https://cache.bydoceanauto.com/manage/20260305/1772706572XFNEc7Ku.png",
+    "powertrain": "纯电",
+    "msrp": 171900,
+    "currency": "CNY",
+    "fuel_consumption": null,
+    "fuel_unit": null,
+    "fuel_standard": null,
+    "features": {},
+    "sources": {
+      "specs": {
+        "title": "比亚迪官网：2026款海狮06EV 参数对比",
+        "url": "https://www.byd.com/cn/parameter-comparison?goodsId=10041",
+        "observed_on": "2026-11-11"
+      },
+      "price": {
+        "title": "比亚迪官网：2026款海狮06EV 参数对比",
+        "url": "https://www.byd.com/cn/parameter-comparison?goodsId=10041",
+        "observed_on": "2026-11-11"
+      }
+    }
+  },
+  {
+    "id": "byd-2026-haishi-06-ev-1588",
+    "market": "中国大陆",
+    "make": "比亚迪",
+    "model": "海狮06EV",
+    "year": 2026,
+    "trim": "710远航旗舰版",
+    "image_url": "https://cache.bydoceanauto.com/manage/20260305/1772706572XFNEc7Ku.png",
+    "powertrain": "纯电",
+    "msrp": 179900,
+    "currency": "CNY",
+    "fuel_consumption": null,
+    "fuel_unit": null,
+    "fuel_standard": null,
+    "features": {
+      "轮胎规格": "235/55 R19",
+      "电池容量（kWh）": "82.73"
+    },
+    "sources": {
+      "specs": {
+        "title": "比亚迪官网：2026款海狮06EV 参数对比",
+        "url": "https://www.byd.com/cn/parameter-comparison?goodsId=10041",
+        "observed_on": "2026-11-11"
+      },
+      "price": {
+        "title": "比亚迪官网：2026款海狮06EV 参数对比",
+        "url": "https://www.byd.com/cn/parameter-comparison?goodsId=10041",
+        "observed_on": "2026-11-11"
+      }
+    }
+  },
+  {
+    "id": "byd-2026-haishi-06-ev-1585",
+    "market": "中国大陆",
+    "make": "比亚迪",
+    "model": "海狮06EV",
+    "year": 2026,
+    "trim": "605旗舰版（天神之眼B）",
+    "image_url": "https://cache.bydoceanauto.com/manage/20260305/1772706572XFNEc7Ku.png",
+    "powertrain": "纯电",
+    "msrp": 180900,
+    "currency": "CNY",
+    "fuel_consumption": null,
+    "fuel_unit": null,
+    "fuel_standard": null,
+    "features": {},
+    "sources": {
+      "specs": {
+        "title": "比亚迪官网：2026款海狮06EV 参数对比",
+        "url": "https://www.byd.com/cn/parameter-comparison?goodsId=10041",
+        "observed_on": "2026-11-11"
+      },
+      "price": {
+        "title": "比亚迪官网：2026款海狮06EV 参数对比",
+        "url": "https://www.byd.com/cn/parameter-comparison?goodsId=10041",
+        "observed_on": "2026-11-11"
+      }
+    }
+  },
+  {
+    "id": "byd-2026-haishi-06-ev-1587",
+    "market": "中国大陆",
+    "make": "比亚迪",
+    "model": "海狮06EV",
+    "year": 2026,
+    "trim": "710远航版（天神之眼B）",
+    "image_url": "https://cache.bydoceanauto.com/manage/20260305/1772706572XFNEc7Ku.png",
+    "powertrain": "纯电",
+    "msrp": 180900,
+    "currency": "CNY",
+    "fuel_consumption": null,
+    "fuel_unit": null,
+    "fuel_standard": null,
+    "features": {},
+    "sources": {
+      "specs": {
+        "title": "比亚迪官网：2026款海狮06EV 参数对比",
+        "url": "https://www.byd.com/cn/parameter-comparison?goodsId=10041",
+        "observed_on": "2026-11-11"
+      },
+      "price": {
+        "title": "比亚迪官网：2026款海狮06EV 参数对比",
+        "url": "https://www.byd.com/cn/parameter-comparison?goodsId=10041",
+        "observed_on": "2026-11-11"
+      }
+    }
+  },
+  {
+    "id": "byd-2026-haishi-06-ev-1589",
+    "market": "中国大陆",
+    "make": "比亚迪",
+    "model": "海狮06EV",
+    "year": 2026,
+    "trim": "710远航旗舰版（天神之眼B）",
+    "image_url": "https://cache.bydoceanauto.com/manage/20260305/1772706572XFNEc7Ku.png",
+    "powertrain": "纯电",
+    "msrp": 191900,
+    "currency": "CNY",
+    "fuel_consumption": null,
+    "fuel_unit": null,
+    "fuel_standard": null,
+    "features": {},
+    "sources": {
+      "specs": {
+        "title": "比亚迪官网：2026款海狮06EV 参数对比",
+        "url": "https://www.byd.com/cn/parameter-comparison?goodsId=10041",
+        "observed_on": "2026-11-11"
+      },
+      "price": {
+        "title": "比亚迪官网：2026款海狮06EV 参数对比",
+        "url": "https://www.byd.com/cn/parameter-comparison?goodsId=10041",
+        "observed_on": "2026-11-11"
+      }
+    }
+  },
+  {
+    "id": "byd-2026-haishi-06-dm-i-1626",
+    "market": "中国大陆",
+    "make": "比亚迪",
+    "model": "海狮06DM-i",
+    "year": 2026,
+    "trim": "205领航版",
+    "image_url": "https://cache.bydoceanauto.com/manage/20260525/1779691546tCcwzPuT.png",
+    "powertrain": "DM-i 插电混动",
+    "msrp": 129900,
+    "currency": "CNY",
+    "fuel_consumption": null,
+    "fuel_unit": null,
+    "fuel_standard": null,
+    "features": {
+      "轮胎规格": "235/50 R19",
+      "电池容量（kWh）": "26.6",
+      "云辇-C智能阻尼车身控制系统": "有",
+      "高快领航辅助（HNOA）": "无"
+    },
+    "sources": {
+      "specs": {
+        "title": "比亚迪官网：2026款海狮06DM-i 参数对比",
+        "url": "https://www.byd.com/cn/parameter-comparison?goodsId=10051",
+        "observed_on": "2026-11-11"
+      },
+      "price": {
+        "title": "比亚迪官网：2026款海狮06DM-i 参数对比",
+        "url": "https://www.byd.com/cn/parameter-comparison?goodsId=10051",
+        "observed_on": "2026-11-11"
+      }
+    }
+  },
+  {
+    "id": "byd-2026-haishi-06-dm-i-1620",
+    "market": "中国大陆",
+    "make": "比亚迪",
+    "model": "海狮06DM-i",
+    "year": 2026,
+    "trim": "205领航Pro版",
+    "image_url": "https://cache.bydoceanauto.com/manage/20260525/1779691546tCcwzPuT.png",
+    "powertrain": "DM-i 插电混动",
+    "msrp": 139900,
+    "currency": "CNY",
+    "fuel_consumption": null,
+    "fuel_unit": null,
+    "fuel_standard": null,
+    "features": {
+      "轮胎规格": "235/50 R19",
+      "电池容量（kWh）": "26.6",
+      "云辇-C智能阻尼车身控制系统": "有",
+      "高快领航辅助（HNOA）": "有"
+    },
+    "sources": {
+      "specs": {
+        "title": "比亚迪官网：2026款海狮06DM-i 参数对比",
+        "url": "https://www.byd.com/cn/parameter-comparison?goodsId=10051",
+        "observed_on": "2026-11-11"
+      },
+      "price": {
+        "title": "比亚迪官网：2026款海狮06DM-i 参数对比",
+        "url": "https://www.byd.com/cn/parameter-comparison?goodsId=10051",
+        "observed_on": "2026-11-11"
+      }
+    }
+  },
+  {
+    "id": "byd-2026-haishi-06-dm-i-1625",
+    "market": "中国大陆",
+    "make": "比亚迪",
+    "model": "海狮06DM-i",
+    "year": 2026,
+    "trim": "310远航版",
+    "image_url": "https://cache.bydoceanauto.com/manage/20260525/1779691546tCcwzPuT.png",
+    "powertrain": "DM-i 插电混动",
+    "msrp": 149900,
+    "currency": "CNY",
+    "fuel_consumption": null,
+    "fuel_unit": null,
+    "fuel_standard": null,
+    "features": {
+      "轮胎规格": "235/50 R19",
+      "电池容量（kWh）": "38",
+      "云辇-C智能阻尼车身控制系统": "有",
+      "高快领航辅助（HNOA）": "有"
+    },
+    "sources": {
+      "specs": {
+        "title": "比亚迪官网：2026款海狮06DM-i 参数对比",
+        "url": "https://www.byd.com/cn/parameter-comparison?goodsId=10051",
+        "observed_on": "2026-11-11"
+      },
+      "price": {
+        "title": "比亚迪官网：2026款海狮06DM-i 参数对比",
+        "url": "https://www.byd.com/cn/parameter-comparison?goodsId=10051",
+        "observed_on": "2026-11-11"
+      }
+    }
+  },
+  {
+    "id": "byd-2026-haishi-06-dm-i-1624",
+    "market": "中国大陆",
+    "make": "比亚迪",
+    "model": "海狮06DM-i",
+    "year": 2026,
+    "trim": "310旗舰版",
+    "image_url": "https://cache.bydoceanauto.com/manage/20260525/1779691546tCcwzPuT.png",
+    "powertrain": "DM-i 插电混动",
+    "msrp": 159900,
+    "currency": "CNY",
+    "fuel_consumption": null,
+    "fuel_unit": null,
+    "fuel_standard": null,
+    "features": {
+      "轮胎规格": "235/50 R19",
+      "电池容量（kWh）": "38",
+      "云辇-C智能阻尼车身控制系统": "有",
+      "高快领航辅助（HNOA）": "有"
+    },
+    "sources": {
+      "specs": {
+        "title": "比亚迪官网：2026款海狮06DM-i 参数对比",
+        "url": "https://www.byd.com/cn/parameter-comparison?goodsId=10051",
+        "observed_on": "2026-11-11"
+      },
+      "price": {
+        "title": "比亚迪官网：2026款海狮06DM-i 参数对比",
+        "url": "https://www.byd.com/cn/parameter-comparison?goodsId=10051",
+        "observed_on": "2026-11-11"
+      }
+    }
+  },
+  {
+    "id": "byd-2026-haiou-1616",
+    "market": "中国大陆",
+    "make": "比亚迪",
+    "model": "海鸥",
+    "year": 2026,
+    "trim": "活力版",
+    "image_url": "https://cache.bydoceanauto.com/manage/20260509/1778289235j2lK1quJ.png",
+    "powertrain": "纯电",
+    "msrp": 69900,
+    "currency": "CNY",
+    "fuel_consumption": null,
+    "fuel_unit": null,
+    "fuel_standard": null,
+    "features": {
+      "轮胎规格": "165/65 R15"
+    },
+    "sources": {
+      "specs": {
+        "title": "比亚迪官网：2026款海鸥 参数对比",
+        "url": "https://www.byd.com/cn/parameter-comparison?goodsId=10050",
+        "observed_on": "2026-11-11"
+      },
+      "price": {
+        "title": "比亚迪官网：2026款海鸥 参数对比",
+        "url": "https://www.byd.com/cn/parameter-comparison?goodsId=10050",
+        "observed_on": "2026-11-11"
+      }
+    }
+  },
+  {
+    "id": "byd-2026-haiou-1617",
+    "market": "中国大陆",
+    "make": "比亚迪",
+    "model": "海鸥",
+    "year": 2026,
+    "trim": "自由版",
+    "image_url": "https://cache.bydoceanauto.com/manage/20260509/1778289235j2lK1quJ.png",
+    "powertrain": "纯电",
+    "msrp": 78900,
+    "currency": "CNY",
+    "fuel_consumption": null,
+    "fuel_unit": null,
+    "fuel_standard": null,
+    "features": {
+      "轮胎规格": "175/55 R16"
+    },
+    "sources": {
+      "specs": {
+        "title": "比亚迪官网：2026款海鸥 参数对比",
+        "url": "https://www.byd.com/cn/parameter-comparison?goodsId=10050",
+        "observed_on": "2026-11-11"
+      },
+      "price": {
+        "title": "比亚迪官网：2026款海鸥 参数对比",
+        "url": "https://www.byd.com/cn/parameter-comparison?goodsId=10050",
+        "observed_on": "2026-11-11"
+      }
+    }
+  },
+  {
+    "id": "byd-2026-haiou-1619",
+    "market": "中国大陆",
+    "make": "比亚迪",
+    "model": "海鸥",
+    "year": 2026,
+    "trim": "自在版",
+    "image_url": "https://cache.bydoceanauto.com/manage/20260509/1778289235j2lK1quJ.png",
+    "powertrain": "纯电",
+    "msrp": 78900,
+    "currency": "CNY",
+    "fuel_consumption": null,
+    "fuel_unit": null,
+    "fuel_standard": null,
+    "features": {
+      "轮胎规格": "175/55 R16"
+    },
+    "sources": {
+      "specs": {
+        "title": "比亚迪官网：2026款海鸥 参数对比",
+        "url": "https://www.byd.com/cn/parameter-comparison?goodsId=10050",
+        "observed_on": "2026-11-11"
+      },
+      "price": {
+        "title": "比亚迪官网：2026款海鸥 参数对比",
+        "url": "https://www.byd.com/cn/parameter-comparison?goodsId=10050",
+        "observed_on": "2026-11-11"
+      }
+    }
+  },
+  {
+    "id": "byd-2026-haiou-1614",
+    "market": "中国大陆",
+    "make": "比亚迪",
+    "model": "海鸥",
+    "year": 2026,
+    "trim": "飞翔版",
+    "image_url": "https://cache.bydoceanauto.com/manage/20260509/1778289235j2lK1quJ.png",
+    "powertrain": "纯电",
+    "msrp": 85900,
+    "currency": "CNY",
+    "fuel_consumption": null,
+    "fuel_unit": null,
+    "fuel_standard": null,
+    "features": {
+      "轮胎规格": "175/55 R16"
+    },
+    "sources": {
+      "specs": {
+        "title": "比亚迪官网：2026款海鸥 参数对比",
+        "url": "https://www.byd.com/cn/parameter-comparison?goodsId=10050",
+        "observed_on": "2026-11-11"
+      },
+      "price": {
+        "title": "比亚迪官网：2026款海鸥 参数对比",
+        "url": "https://www.byd.com/cn/parameter-comparison?goodsId=10050",
+        "observed_on": "2026-11-11"
+      }
+    }
+  },
+  {
+    "id": "byd-2026-haibao-06-dm-i-wagon-1594",
+    "market": "中国大陆",
+    "make": "比亚迪",
+    "model": "海豹06DM-i旅行版",
+    "year": 2026,
+    "trim": "200舒享型",
+    "image_url": "https://cache.bydoceanauto.com/manage/20260402/1775116948qZwvagTT.png",
+    "powertrain": "DM-i 插电混动",
+    "msrp": 111900,
+    "currency": "CNY",
+    "fuel_consumption": null,
+    "fuel_unit": null,
+    "fuel_standard": null,
+    "features": {
+      "轮胎规格": "225/55 R17",
+      "高快领航辅助（HNOA）": "无"
+    },
+    "sources": {
+      "specs": {
+        "title": "比亚迪官网：2026款海豹06DM-i旅行版 参数对比",
+        "url": "https://www.byd.com/cn/parameter-comparison?goodsId=10043",
+        "observed_on": "2026-11-11"
+      },
+      "price": {
+        "title": "比亚迪官网：2026款海豹06DM-i旅行版 参数对比",
+        "url": "https://www.byd.com/cn/parameter-comparison?goodsId=10043",
+        "observed_on": "2026-11-11"
+      }
+    }
+  },
+  {
+    "id": "byd-2026-haibao-06-dm-i-wagon-1595",
+    "market": "中国大陆",
+    "make": "比亚迪",
+    "model": "海豹06DM-i旅行版",
+    "year": 2026,
+    "trim": "200智享型",
+    "image_url": "https://cache.bydoceanauto.com/manage/20260402/1775116948qZwvagTT.png",
+    "powertrain": "DM-i 插电混动",
+    "msrp": 119900,
+    "currency": "CNY",
+    "fuel_consumption": null,
+    "fuel_unit": null,
+    "fuel_standard": null,
+    "features": {
+      "轮胎规格": "225/55 R17",
+      "高快领航辅助（HNOA）": "有"
+    },
+    "sources": {
+      "specs": {
+        "title": "比亚迪官网：2026款海豹06DM-i旅行版 参数对比",
+        "url": "https://www.byd.com/cn/parameter-comparison?goodsId=10043",
+        "observed_on": "2026-11-11"
+      },
+      "price": {
+        "title": "比亚迪官网：2026款海豹06DM-i旅行版 参数对比",
+        "url": "https://www.byd.com/cn/parameter-comparison?goodsId=10043",
+        "observed_on": "2026-11-11"
+      }
+    }
+  },
+  {
+    "id": "byd-2026-haibao-06-dm-i-wagon-1596",
+    "market": "中国大陆",
+    "make": "比亚迪",
+    "model": "海豹06DM-i旅行版",
+    "year": 2026,
+    "trim": "200尊享型",
+    "image_url": "https://cache.bydoceanauto.com/manage/20260402/1775116948qZwvagTT.png",
+    "powertrain": "DM-i 插电混动",
+    "msrp": 129900,
+    "currency": "CNY",
+    "fuel_consumption": null,
+    "fuel_unit": null,
+    "fuel_standard": null,
+    "features": {
+      "轮胎规格": "225/50 R18",
+      "高快领航辅助（HNOA）": "有"
+    },
+    "sources": {
+      "specs": {
+        "title": "比亚迪官网：2026款海豹06DM-i旅行版 参数对比",
+        "url": "https://www.byd.com/cn/parameter-comparison?goodsId=10043",
+        "observed_on": "2026-11-11"
+      },
+      "price": {
+        "title": "比亚迪官网：2026款海豹06DM-i旅行版 参数对比",
+        "url": "https://www.byd.com/cn/parameter-comparison?goodsId=10043",
+        "observed_on": "2026-11-11"
+      }
+    }
+  },
+  {
+    "id": "byd-2026-haibao-06-dm-i-wagon-1597",
+    "market": "中国大陆",
+    "make": "比亚迪",
+    "model": "海豹06DM-i旅行版",
+    "year": 2026,
+    "trim": "300旗舰型",
+    "image_url": "https://cache.bydoceanauto.com/manage/20260402/1775116948qZwvagTT.png",
+    "powertrain": "DM-i 插电混动",
+    "msrp": 139900,
+    "currency": "CNY",
+    "fuel_consumption": null,
+    "fuel_unit": null,
+    "fuel_standard": null,
+    "features": {
+      "轮胎规格": "225/50 R18",
+      "高快领航辅助（HNOA）": "有"
+    },
+    "sources": {
+      "specs": {
+        "title": "比亚迪官网：2026款海豹06DM-i旅行版 参数对比",
+        "url": "https://www.byd.com/cn/parameter-comparison?goodsId=10043",
+        "observed_on": "2026-11-11"
+      },
+      "price": {
+        "title": "比亚迪官网：2026款海豹06DM-i旅行版 参数对比",
+        "url": "https://www.byd.com/cn/parameter-comparison?goodsId=10043",
+        "observed_on": "2026-11-11"
+      }
+    }
+  },
+  {
+    "id": "byd-2026-haibao-07-dm-i-1566",
+    "market": "中国大陆",
+    "make": "比亚迪",
+    "model": "海豹07DM-i",
+    "year": 2026,
+    "trim": "1.5L 135KM豪华型",
+    "image_url": "https://cache.bydoceanauto.com/manage/20250915/1757900737sjF3Otg4.png",
+    "powertrain": "DM-i 插电混动",
+    "msrp": 149800,
+    "currency": "CNY",
+    "fuel_consumption": null,
+    "fuel_unit": null,
+    "fuel_standard": null,
+    "features": {
+      "轮胎规格": "225/50 R18",
+      "电池容量（kWh）": "17.6",
+      "云辇-C智能阻尼车身控制系统": "无",
+      "高快领航辅助（HNOA）": "有"
+    },
+    "sources": {
+      "specs": {
+        "title": "比亚迪官网：2026款海豹07DM-i 参数对比",
+        "url": "https://www.byd.com/cn/parameter-comparison?goodsId=10038",
+        "observed_on": "2026-11-11"
+      },
+      "price": {
+        "title": "比亚迪官网：2026款海豹07DM-i 参数对比",
+        "url": "https://www.byd.com/cn/parameter-comparison?goodsId=10038",
+        "observed_on": "2026-11-11"
+      }
+    }
+  },
+  {
+    "id": "byd-2026-haibao-07-dm-i-1567",
+    "market": "中国大陆",
+    "make": "比亚迪",
+    "model": "海豹07DM-i",
+    "year": 2026,
+    "trim": "1.5T 135KM尊贵型",
+    "image_url": "https://cache.bydoceanauto.com/manage/20250915/1757900737sjF3Otg4.png",
+    "powertrain": "DM-i 插电混动",
+    "msrp": 159800,
+    "currency": "CNY",
+    "fuel_consumption": null,
+    "fuel_unit": null,
+    "fuel_standard": null,
+    "features": {
+      "轮胎规格": "225/50 R18",
+      "电池容量（kWh）": "17.6",
+      "云辇-C智能阻尼车身控制系统": "有",
+      "高快领航辅助（HNOA）": "有"
+    },
+    "sources": {
+      "specs": {
+        "title": "比亚迪官网：2026款海豹07DM-i 参数对比",
+        "url": "https://www.byd.com/cn/parameter-comparison?goodsId=10038",
+        "observed_on": "2026-11-11"
+      },
+      "price": {
+        "title": "比亚迪官网：2026款海豹07DM-i 参数对比",
+        "url": "https://www.byd.com/cn/parameter-comparison?goodsId=10038",
+        "observed_on": "2026-11-11"
+      }
+    }
+  },
+  {
+    "id": "byd-2026-haibao-07-dm-i-1568",
+    "market": "中国大陆",
+    "make": "比亚迪",
+    "model": "海豹07DM-i",
+    "year": 2026,
+    "trim": "1.5T 230KM尊荣型",
+    "image_url": "https://cache.bydoceanauto.com/manage/20250915/1757900737sjF3Otg4.png",
+    "powertrain": "DM-i 插电混动",
+    "msrp": 169800,
+    "currency": "CNY",
+    "fuel_consumption": null,
+    "fuel_unit": null,
+    "fuel_standard": null,
+    "features": {
+      "轮胎规格": "225/50 R18",
+      "电池容量（kWh）": "29.46",
+      "云辇-C智能阻尼车身控制系统": "有",
+      "高快领航辅助（HNOA）": "有"
+    },
+    "sources": {
+      "specs": {
+        "title": "比亚迪官网：2026款海豹07DM-i 参数对比",
+        "url": "https://www.byd.com/cn/parameter-comparison?goodsId=10038",
+        "observed_on": "2026-11-11"
+      },
+      "price": {
+        "title": "比亚迪官网：2026款海豹07DM-i 参数对比",
+        "url": "https://www.byd.com/cn/parameter-comparison?goodsId=10038",
+        "observed_on": "2026-11-11"
+      }
+    }
+  },
+  {
+    "id": "byd-2026-haibao-07-dm-i-1569",
+    "market": "中国大陆",
+    "make": "比亚迪",
+    "model": "海豹07DM-i",
+    "year": 2026,
+    "trim": "1.5T 230KM旗舰型",
+    "image_url": "https://cache.bydoceanauto.com/manage/20250915/1757900737sjF3Otg4.png",
+    "powertrain": "DM-i 插电混动",
+    "msrp": 186800,
+    "currency": "CNY",
+    "fuel_consumption": null,
+    "fuel_unit": null,
+    "fuel_standard": null,
+    "features": {
+      "轮胎规格": "225/50 R18",
+      "电池容量（kWh）": "29.46",
+      "云辇-C智能阻尼车身控制系统": "有",
+      "高快领航辅助（HNOA）": "有"
+    },
+    "sources": {
+      "specs": {
+        "title": "比亚迪官网：2026款海豹07DM-i 参数对比",
+        "url": "https://www.byd.com/cn/parameter-comparison?goodsId=10038",
+        "observed_on": "2026-11-11"
+      },
+      "price": {
+        "title": "比亚迪官网：2026款海豹07DM-i 参数对比",
+        "url": "https://www.byd.com/cn/parameter-comparison?goodsId=10038",
+        "observed_on": "2026-11-11"
+      }
+    }
+  },
+  {
+    "id": "byd-2026-haibao-06-gt-1590",
+    "market": "中国大陆",
+    "make": "比亚迪",
+    "model": "海豹06GT",
+    "year": 2026,
+    "trim": "520海浪版",
+    "image_url": "https://cache.bydoceanauto.com/manage/20260401/1775035678XPjxH5lf.png",
+    "powertrain": "纯电",
+    "msrp": 128900,
+    "currency": "CNY",
+    "fuel_consumption": null,
+    "fuel_unit": null,
+    "fuel_standard": null,
+    "features": {
+      "高快领航辅助（HNOA）": "无"
+    },
+    "sources": {
+      "specs": {
+        "title": "比亚迪官网：2026款海豹06GT 参数对比",
+        "url": "https://www.byd.com/cn/parameter-comparison?goodsId=10044",
+        "observed_on": "2026-11-11"
+      },
+      "price": {
+        "title": "比亚迪官网：2026款海豹06GT 参数对比",
+        "url": "https://www.byd.com/cn/parameter-comparison?goodsId=10044",
+        "observed_on": "2026-11-11"
+      }
+    }
+  },
+  {
+    "id": "byd-2026-haibao-06-gt-1591",
+    "market": "中国大陆",
+    "make": "比亚迪",
+    "model": "海豹06GT",
+    "year": 2026,
+    "trim": "520海浪Plus版",
+    "image_url": "https://cache.bydoceanauto.com/manage/20260401/1775035678XPjxH5lf.png",
+    "powertrain": "纯电",
+    "msrp": 139900,
+    "currency": "CNY",
+    "fuel_consumption": null,
+    "fuel_unit": null,
+    "fuel_standard": null,
+    "features": {
+      "高快领航辅助（HNOA）": "有"
+    },
+    "sources": {
+      "specs": {
+        "title": "比亚迪官网：2026款海豹06GT 参数对比",
+        "url": "https://www.byd.com/cn/parameter-comparison?goodsId=10044",
+        "observed_on": "2026-11-11"
+      },
+      "price": {
+        "title": "比亚迪官网：2026款海豹06GT 参数对比",
+        "url": "https://www.byd.com/cn/parameter-comparison?goodsId=10044",
+        "observed_on": "2026-11-11"
+      }
+    }
+  },
+  {
+    "id": "byd-2026-haibao-06-gt-1592",
+    "market": "中国大陆",
+    "make": "比亚迪",
+    "model": "海豹06GT",
+    "year": 2026,
+    "trim": "620热浪Plus版",
+    "image_url": "https://cache.bydoceanauto.com/manage/20260401/1775035678XPjxH5lf.png",
+    "powertrain": "纯电",
+    "msrp": 153900,
+    "currency": "CNY",
+    "fuel_consumption": null,
+    "fuel_unit": null,
+    "fuel_standard": null,
+    "features": {
+      "高快领航辅助（HNOA）": "有"
+    },
+    "sources": {
+      "specs": {
+        "title": "比亚迪官网：2026款海豹06GT 参数对比",
+        "url": "https://www.byd.com/cn/parameter-comparison?goodsId=10044",
+        "observed_on": "2026-11-11"
+      },
+      "price": {
+        "title": "比亚迪官网：2026款海豹06GT 参数对比",
+        "url": "https://www.byd.com/cn/parameter-comparison?goodsId=10044",
+        "observed_on": "2026-11-11"
+      }
+    }
+  },
+  {
+    "id": "byd-2026-haibao-06-gt-1593",
+    "market": "中国大陆",
+    "make": "比亚迪",
+    "model": "海豹06GT",
+    "year": 2026,
+    "trim": "620热浪Max版",
+    "image_url": "https://cache.bydoceanauto.com/manage/20260401/1775035678XPjxH5lf.png",
+    "powertrain": "纯电",
+    "msrp": 169900,
+    "currency": "CNY",
+    "fuel_consumption": null,
+    "fuel_unit": null,
+    "fuel_standard": null,
+    "features": {
+      "高快领航辅助（HNOA）": "有"
+    },
+    "sources": {
+      "specs": {
+        "title": "比亚迪官网：2026款海豹06GT 参数对比",
+        "url": "https://www.byd.com/cn/parameter-comparison?goodsId=10044",
+        "observed_on": "2026-11-11"
+      },
+      "price": {
+        "title": "比亚迪官网：2026款海豹06GT 参数对比",
+        "url": "https://www.byd.com/cn/parameter-comparison?goodsId=10044",
+        "observed_on": "2026-11-11"
+      }
+    }
+  },
+  {
+    "id": "byd-2026-xia-1677",
+    "market": "中国大陆",
+    "make": "比亚迪",
+    "model": "夏",
+    "year": 2026,
+    "trim": "100KM进取型",
+    "image_url": "https://cache.bydauto.com.cn/dilink_user_upload/manage/202511/04/094142z2hOlUt2.png",
+    "powertrain": "DM-i 插电混动",
+    "msrp": 206800,
+    "currency": "CNY",
+    "fuel_consumption": 4.9,
+    "fuel_unit": "L/100km",
+    "fuel_standard": "NEDC 亏电油耗",
+    "features": {
+      "轮胎规格": "235/60 R18",
+      "电机最大功率（kW）": "200",
+      "CLTC纯电续驶里程（km）": "100",
+      "电池容量（kWh）": "20.39",
+      "高快领航辅助（HNOA）": "无"
+    },
+    "sources": {
+      "specs": {
+        "title": "比亚迪官网：2026款夏 参数对比",
+        "url": "https://www.byd.com/cn/parameter-comparison?goodsId=151",
+        "observed_on": "2026-11-11"
+      },
+      "price": {
+        "title": "比亚迪官网：2026款夏 参数对比",
+        "url": "https://www.byd.com/cn/parameter-comparison?goodsId=151",
+        "observed_on": "2026-11-11"
+      },
+      "fuel": {
+        "title": "比亚迪官网：2026款夏 参数对比",
+        "url": "https://www.byd.com/cn/parameter-comparison?goodsId=151",
+        "observed_on": "2026-11-11"
+      }
+    }
+  },
+  {
+    "id": "byd-2026-xia-1678",
+    "market": "中国大陆",
+    "make": "比亚迪",
+    "model": "夏",
+    "year": 2026,
+    "trim": "100KM超越型",
+    "image_url": "https://cache.bydauto.com.cn/dilink_user_upload/manage/202511/04/094142z2hOlUt2.png",
+    "powertrain": "DM-i 插电混动",
+    "msrp": 219800,
+    "currency": "CNY",
+    "fuel_consumption": 4.9,
+    "fuel_unit": "L/100km",
+    "fuel_standard": "NEDC 亏电油耗",
+    "features": {
+      "轮胎规格": "235/60 R18",
+      "电机最大功率（kW）": "200",
+      "CLTC纯电续驶里程（km）": "100",
+      "电池容量（kWh）": "20.39",
+      "高快领航辅助（HNOA）": "有"
+    },
+    "sources": {
+      "specs": {
+        "title": "比亚迪官网：2026款夏 参数对比",
+        "url": "https://www.byd.com/cn/parameter-comparison?goodsId=151",
+        "observed_on": "2026-11-11"
+      },
+      "price": {
+        "title": "比亚迪官网：2026款夏 参数对比",
+        "url": "https://www.byd.com/cn/parameter-comparison?goodsId=151",
+        "observed_on": "2026-11-11"
+      },
+      "fuel": {
+        "title": "比亚迪官网：2026款夏 参数对比",
+        "url": "https://www.byd.com/cn/parameter-comparison?goodsId=151",
+        "observed_on": "2026-11-11"
+      }
+    }
+  },
+  {
+    "id": "byd-2026-xia-1679",
+    "market": "中国大陆",
+    "make": "比亚迪",
+    "model": "夏",
+    "year": 2026,
+    "trim": "218KM超越型",
+    "image_url": "https://cache.bydauto.com.cn/dilink_user_upload/manage/202511/04/094142z2hOlUt2.png",
+    "powertrain": "DM-i 插电混动",
+    "msrp": 246800,
+    "currency": "CNY",
+    "fuel_consumption": 5.0,
+    "fuel_unit": "L/100km",
+    "fuel_standard": "NEDC 亏电油耗",
+    "features": {
+      "轮胎规格": "235/60 R18",
+      "电机最大功率（kW）": "200",
+      "CLTC纯电续驶里程（km）": "203/218（长续航）",
+      "电池容量（kWh）": "36.6",
+      "高快领航辅助（HNOA）": "有"
+    },
+    "sources": {
+      "specs": {
+        "title": "比亚迪官网：2026款夏 参数对比",
+        "url": "https://www.byd.com/cn/parameter-comparison?goodsId=151",
+        "observed_on": "2026-11-11"
+      },
+      "price": {
+        "title": "比亚迪官网：2026款夏 参数对比",
+        "url": "https://www.byd.com/cn/parameter-comparison?goodsId=151",
+        "observed_on": "2026-11-11"
+      },
+      "fuel": {
+        "title": "比亚迪官网：2026款夏 参数对比",
+        "url": "https://www.byd.com/cn/parameter-comparison?goodsId=151",
+        "observed_on": "2026-11-11"
+      }
+    }
+  },
+  {
+    "id": "byd-2026-xia-1681",
+    "market": "中国大陆",
+    "make": "比亚迪",
+    "model": "夏",
+    "year": 2026,
+    "trim": "218KM卓越型 舒享选装包",
+    "image_url": "https://cache.bydauto.com.cn/dilink_user_upload/manage/202511/04/094142z2hOlUt2.png",
+    "powertrain": "DM-i 插电混动",
+    "msrp": 269800,
+    "currency": "CNY",
+    "fuel_consumption": 5.0,
+    "fuel_unit": "L/100km",
+    "fuel_standard": "NEDC 亏电油耗",
+    "features": {
+      "轮胎规格": "235/60 R18",
+      "电机最大功率（kW）": "200",
+      "CLTC纯电续驶里程（km）": "203/218（长续航）",
+      "电池容量（kWh）": "36.6",
+      "高快领航辅助（HNOA）": "有"
+    },
+    "sources": {
+      "specs": {
+        "title": "比亚迪官网：2026款夏 参数对比",
+        "url": "https://www.byd.com/cn/parameter-comparison?goodsId=151",
+        "observed_on": "2026-11-11"
+      },
+      "price": {
+        "title": "比亚迪官网：2026款夏 参数对比",
+        "url": "https://www.byd.com/cn/parameter-comparison?goodsId=151",
+        "observed_on": "2026-11-11"
+      },
+      "fuel": {
+        "title": "比亚迪官网：2026款夏 参数对比",
+        "url": "https://www.byd.com/cn/parameter-comparison?goodsId=151",
+        "observed_on": "2026-11-11"
+      }
+    }
+  },
+  {
+    "id": "byd-2026-xia-1680",
+    "market": "中国大陆",
+    "make": "比亚迪",
+    "model": "夏",
+    "year": 2026,
+    "trim": "218KM卓越型",
+    "image_url": "https://cache.bydauto.com.cn/dilink_user_upload/manage/202511/04/094142z2hOlUt2.png",
+    "powertrain": "DM-i 插电混动",
+    "msrp": 269800,
+    "currency": "CNY",
+    "fuel_consumption": 5.0,
+    "fuel_unit": "L/100km",
+    "fuel_standard": "NEDC 亏电油耗",
+    "features": {
+      "轮胎规格": "235/60 R18",
+      "电机最大功率（kW）": "200",
+      "CLTC纯电续驶里程（km）": "203/218（长续航）",
+      "电池容量（kWh）": "36.6",
+      "高快领航辅助（HNOA）": "有"
+    },
+    "sources": {
+      "specs": {
+        "title": "比亚迪官网：2026款夏 参数对比",
+        "url": "https://www.byd.com/cn/parameter-comparison?goodsId=151",
+        "observed_on": "2026-11-11"
+      },
+      "price": {
+        "title": "比亚迪官网：2026款夏 参数对比",
+        "url": "https://www.byd.com/cn/parameter-comparison?goodsId=151",
+        "observed_on": "2026-11-11"
+      },
+      "fuel": {
+        "title": "比亚迪官网：2026款夏 参数对比",
+        "url": "https://www.byd.com/cn/parameter-comparison?goodsId=151",
+        "observed_on": "2026-11-11"
+      }
+    }
+  }
+]

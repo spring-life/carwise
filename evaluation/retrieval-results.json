@@ -1,0 +1,432 @@
+{
+  "total": 26,
+  "top3_page_hit_rate": 1.0,
+  "top3_document_hit_rate": 1.0,
+  "unanswerable_rejection_rate": 1.0,
+  "results": [
+    {
+      "id": "L01",
+      "question": "秦L的安全气囊在什么情况下展开？",
+      "expected_pages": [
+        21
+      ],
+      "expected_document_id": null,
+      "retrieved_pages": [
+        21,
+        22,
+        23
+      ],
+      "retrieved_documents": [
+        "byd-qin-l-manual-2026",
+        "byd-qin-l-manual-2026",
+        "byd-qin-l-manual-2026"
+      ],
+      "pass": true
+    },
+    {
+      "id": "L02",
+      "question": "秦L安全气囊能代替安全带吗？",
+      "expected_pages": [
+        21
+      ],
+      "expected_document_id": null,
+      "retrieved_pages": [
+        21,
+        23,
+        28
+      ],
+      "retrieved_documents": [
+        "byd-qin-l-manual-2026",
+        "byd-qin-l-manual-2026",
+        "byd-qin-l-manual-2026"
+      ],
+      "pass": true
+    },
+    {
+      "id": "L03",
+      "question": "秦L车辆上电时听见高压部件响声是否一定是故障？",
+      "expected_pages": [
+        42
+      ],
+      "expected_document_id": null,
+      "retrieved_pages": [
+        41,
+        42,
+        391
+      ],
+      "retrieved_documents": [
+        "byd-qin-l-manual-2026",
+        "byd-qin-l-manual-2026",
+        "byd-qin-l-manual-2026"
+      ],
+      "pass": true
+    },
+    {
+      "id": "L04",
+      "question": "秦L的胎压故障警告灯亮起意味着什么？",
+      "expected_pages": [
+        62
+      ],
+      "expected_document_id": null,
+      "retrieved_pages": [
+        62,
+        62,
+        51
+      ],
+      "retrieved_documents": [
+        "byd-qin-l-manual-2026",
+        "byd-qin-l-manual-2026",
+        "byd-qin-l-manual-2026"
+      ],
+      "pass": true
+    },
+    {
+      "id": "L05",
+      "question": "秦L驻车系统和ABS故障灯同时亮起时应如何处理？",
+      "expected_pages": [
+        62,
+        65
+      ],
+      "expected_document_id": null,
+      "retrieved_pages": [
+        65,
+        62,
+        63
+      ],
+      "retrieved_documents": [
+        "byd-qin-l-manual-2026",
+        "byd-qin-l-manual-2026",
+        "byd-qin-l-manual-2026"
+      ],
+      "pass": true
+    },
+    {
+      "id": "L06",
+      "question": "秦L转向系统故障警告灯常亮应该联系谁？",
+      "expected_pages": [
+        65
+      ],
+      "expected_document_id": null,
+      "retrieved_pages": [
+        65,
+        60,
+        66
+      ],
+      "retrieved_documents": [
+        "byd-qin-l-manual-2026",
+        "byd-qin-l-manual-2026",
+        "byd-qin-l-manual-2026"
+      ],
+      "pass": true
+    },
+    {
+      "id": "L07",
+      "question": "秦L首次保养是6个月还是5000公里？",
+      "expected_pages": [
+        355
+      ],
+      "expected_document_id": null,
+      "retrieved_pages": [
+        355,
+        358
+      ],
+      "retrieved_documents": [
+        "byd-qin-l-manual-2026",
+        "byd-qin-l-manual-2026"
+      ],
+      "pass": true
+    },
+    {
+      "id": "L08",
+      "question": "秦L首次保养包含哪些项目？",
+      "expected_pages": [
+        355
+      ],
+      "expected_document_id": null,
+      "retrieved_pages": [
+        355,
+        356
+      ],
+      "retrieved_documents": [
+        "byd-qin-l-manual-2026",
+        "byd-qin-l-manual-2026"
+      ],
+      "pass": true
+    },
+    {
+      "id": "L09",
+      "question": "秦L车灯在大雨后起雾一定表示故障吗？",
+      "expected_pages": [
+        370
+      ],
+      "expected_document_id": null,
+      "retrieved_pages": [
+        370,
+        21,
+        371
+      ],
+      "retrieved_documents": [
+        "byd-qin-l-manual-2026",
+        "byd-qin-l-manual-2026",
+        "byd-qin-l-manual-2026"
+      ],
+      "pass": true
+    },
+    {
+      "id": "L10",
+      "question": "秦L车辆起火时手册要求使用哪种灭火器？",
+      "expected_pages": [
+        390
+      ],
+      "expected_document_id": null,
+      "retrieved_pages": [
+        390,
+        390
+      ],
+      "retrieved_documents": [
+        "byd-qin-l-manual-2026",
+        "byd-qin-l-manual-2026"
+      ],
+      "pass": true
+    },
+    {
+      "id": "P01",
+      "question": "秦PLUS安全气囊能替代安全带吗？",
+      "expected_pages": [
+        19
+      ],
+      "expected_document_id": null,
+      "retrieved_pages": [
+        19,
+        25,
+        22
+      ],
+      "retrieved_documents": [
+        "byd-qin-plus-manual-2026",
+        "byd-qin-plus-manual-2026",
+        "byd-qin-plus-manual-2026"
+      ],
+      "pass": true
+    },
+    {
+      "id": "P02",
+      "question": "秦PLUS的ABS和制动系统故障灯同时亮起应怎么办？",
+      "expected_pages": [
+        53
+      ],
+      "expected_document_id": null,
+      "retrieved_pages": [
+        52,
+        53,
+        54
+      ],
+      "retrieved_documents": [
+        "byd-qin-plus-manual-2026",
+        "byd-qin-plus-manual-2026",
+        "byd-qin-plus-manual-2026"
+      ],
+      "pass": true
+    },
+    {
+      "id": "P03",
+      "question": "秦PLUS车道偏离辅助故障时手册建议联系谁？",
+      "expected_pages": [
+        60
+      ],
+      "expected_document_id": null,
+      "retrieved_pages": [
+        60
+      ],
+      "retrieved_documents": [
+        "byd-qin-plus-manual-2026"
+      ],
+      "pass": true
+    },
+    {
+      "id": "P04",
+      "question": "秦PLUS智能钥匙如何遥控升降车窗？",
+      "expected_pages": [
+        70
+      ],
+      "expected_document_id": null,
+      "retrieved_pages": [
+        70,
+        38,
+        70
+      ],
+      "retrieved_documents": [
+        "byd-qin-plus-manual-2026",
+        "byd-qin-plus-manual-2026",
+        "byd-qin-plus-manual-2026"
+      ],
+      "pass": true
+    },
+    {
+      "id": "P05",
+      "question": "秦PLUS首保要求多久或多少HEV里程？",
+      "expected_pages": [
+        344
+      ],
+      "expected_document_id": null,
+      "retrieved_pages": [
+        347,
+        346,
+        344
+      ],
+      "retrieved_documents": [
+        "byd-qin-plus-manual-2026",
+        "byd-qin-plus-manual-2026",
+        "byd-qin-plus-manual-2026"
+      ],
+      "pass": true
+    },
+    {
+      "id": "P06",
+      "question": "秦PLUS首保需要更换发动机机油吗？",
+      "expected_pages": [
+        345
+      ],
+      "expected_document_id": null,
+      "retrieved_pages": [
+        347,
+        346,
+        345
+      ],
+      "retrieved_documents": [
+        "byd-qin-plus-manual-2026",
+        "byd-qin-plus-manual-2026",
+        "byd-qin-plus-manual-2026"
+      ],
+      "pass": true
+    },
+    {
+      "id": "P07",
+      "question": "秦PLUS冷却液液位正常范围在哪两条刻度线之间？",
+      "expected_pages": [
+        365
+      ],
+      "expected_document_id": null,
+      "retrieved_pages": [
+        367,
+        381,
+        365
+      ],
+      "retrieved_documents": [
+        "byd-qin-plus-manual-2026",
+        "byd-qin-plus-manual-2026",
+        "byd-qin-plus-manual-2026"
+      ],
+      "pass": true
+    },
+    {
+      "id": "P08",
+      "question": "秦PLUS牵引钩安装位置在哪里？",
+      "expected_pages": [
+        385
+      ],
+      "expected_document_id": null,
+      "retrieved_pages": [
+        385
+      ],
+      "retrieved_documents": [
+        "byd-qin-plus-manual-2026"
+      ],
+      "pass": true
+    },
+    {
+      "id": "P09",
+      "question": "秦PLUS车辆识别代码VIN刻印在哪里？",
+      "expected_pages": [
+        395
+      ],
+      "expected_document_id": null,
+      "retrieved_pages": [
+        395
+      ],
+      "retrieved_documents": [
+        "byd-qin-plus-manual-2026"
+      ],
+      "pass": true
+    },
+    {
+      "id": "S01",
+      "question": "比亚迪售后预约有哪些优先安排？",
+      "expected_pages": [],
+      "expected_document_id": "byd-after-sales-process",
+      "retrieved_pages": [
+        69,
+        360
+      ],
+      "retrieved_documents": [
+        "byd-qin-l-manual-2026",
+        "byd-after-sales-process",
+        "byd-qin-l-manual-2026"
+      ],
+      "pass": true
+    },
+    {
+      "id": "S02",
+      "question": "售后接待时会不会说明维修项目和费用？",
+      "expected_pages": [],
+      "expected_document_id": "byd-after-sales-process",
+      "retrieved_pages": [],
+      "retrieved_documents": [
+        "byd-after-sales-process",
+        "byd-after-sales-process"
+      ],
+      "pass": true
+    },
+    {
+      "id": "S03",
+      "question": "维修保养期间如何查看车辆维修进度？",
+      "expected_pages": [],
+      "expected_document_id": "byd-after-sales-process",
+      "retrieved_pages": [
+        356,
+        355
+      ],
+      "retrieved_documents": [
+        "byd-qin-l-manual-2026",
+        "byd-qin-l-manual-2026",
+        "byd-after-sales-process"
+      ],
+      "pass": true
+    },
+    {
+      "id": "N01",
+      "question": "秦L车主事故后售后服务满意度是多少？",
+      "expected_pages": [],
+      "expected_document_id": null,
+      "retrieved_pages": [],
+      "retrieved_documents": [],
+      "pass": true
+    },
+    {
+      "id": "N02",
+      "question": "秦PLUS车主真实道路平均油耗是多少？",
+      "expected_pages": [],
+      "expected_document_id": null,
+      "retrieved_pages": [],
+      "retrieved_documents": [],
+      "pass": true
+    },
+    {
+      "id": "N03",
+      "question": "秦L全国经销商今日实际成交均价是多少？",
+      "expected_pages": [],
+      "expected_document_id": null,
+      "retrieved_pages": [],
+      "retrieved_documents": [],
+      "pass": true
+    },
+    {
+      "id": "N04",
+      "question": "秦PLUS 2026款每万辆车的投诉率是多少？",
+      "expected_pages": [],
+      "expected_document_id": null,
+      "retrieved_pages": [],
+      "retrieved_documents": [],
+      "pass": true
+    }
+  ]
+}

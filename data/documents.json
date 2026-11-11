@@ -1,0 +1,96 @@
+[
+  {
+    "id": "byd-qin-l-manual-2026",
+    "title": "2026款秦L DM-i用户手册",
+    "source_url": "https://www.byd.com/material/domestic-official/user-manual/dynasty/2026款秦L DM-i用户手册20260417.pdf",
+    "source_type": "official",
+    "published_on": "2026-04-17",
+    "market": "中国大陆",
+    "vehicle_ids": [
+      "byd-2026-qin-l-dm-i-1669",
+      "byd-2026-qin-l-dm-i-1682",
+      "byd-2026-qin-l-dm-i-1683",
+      "byd-2026-qin-l-dm-i-1668"
+    ],
+    "path": "qin_l_manual_2026.pdf",
+    "page_ranges": [[1, 70], [340, 400]]
+  },
+  {
+    "id": "byd-qin-plus-manual-2026",
+    "title": "2026款秦PLUS DM-i用户手册",
+    "source_url": "https://www.byd.com/material/domestic-official/user-manual/dynasty/2026款秦PLUS DM-i用户手册260430-new.pdf",
+    "source_type": "official",
+    "published_on": "2026-04-30",
+    "market": "中国大陆",
+    "vehicle_ids": [
+      "byd-2026-qin-plus-dm-i-1684",
+      "byd-2026-qin-plus-dm-i-1687",
+      "byd-2026-qin-plus-dm-i-1686"
+    ],
+    "path": "qin_plus_manual_2026.pdf",
+    "page_ranges": [[1, 70], [335, 395]]
+  },
+  {
+    "id": "byd-song-l-manual-2026",
+    "title": "2026款宋L DM-i用户手册",
+    "source_url": "https://www.byd.com/material/domestic-official/user-manual/dynasty/2026款宋L DM-i用户手册 260420.pdf",
+    "source_type": "official",
+    "published_on": "2026-04-20",
+    "market": "中国大陆",
+    "vehicle_ids": [
+      "byd-2026-song-l-dm-i-1675",
+      "byd-2026-song-l-dm-i-1674",
+      "byd-2026-song-l-dm-i-1673"
+    ],
+    "path": "song_l_manual_2026.pdf",
+    "page_ranges": [[1, 65], [325, 370]]
+  },
+  {
+    "id": "byd-haiou-manual-2026",
+    "title": "2026款海鸥用户手册",
+    "source_url": "https://www.byd.com/material/domestic-official/user-manual/ocean/2026款海鸥用户手册260317.pdf",
+    "source_type": "official",
+    "published_on": "2026-03-17",
+    "market": "中国大陆",
+    "vehicle_ids": [
+      "byd-2026-haiou-1616",
+      "byd-2026-haiou-1617",
+      "byd-2026-haiou-1619",
+      "byd-2026-haiou-1614"
+    ],
+    "path": "haiou_manual_2026.pdf",
+    "page_ranges": [[1, 65], [300, 344]]
+  },
+  {
+    "id": "byd-haishi-06-ev-manual-2026",
+    "title": "2026款海狮06 EV用户手册",
+    "source_url": "https://www.byd.com/material/__CN/domestic-official/user-manual/dynasty/2026款海狮06 EV用户手册261014.pdf",
+    "source_type": "official",
+    "published_on": "2026-10-14",
+    "market": "中国大陆",
+    "vehicle_ids": [
+      "byd-2026-haishi-06-ev-1582",
+      "byd-2026-haishi-06-ev-1584",
+      "byd-2026-haishi-06-ev-1586",
+      "byd-2026-haishi-06-ev-1583",
+      "byd-2026-haishi-06-ev-1588",
+      "byd-2026-haishi-06-ev-1585",
+      "byd-2026-haishi-06-ev-1587",
+      "byd-2026-haishi-06-ev-1589"
+    ],
+    "path": "haishi_06_ev_manual_2026.pdf",
+    "page_ranges": [[1, 65], [335, 380]]
+  },
+  {
+    "id": "byd-after-sales-process",
+    "title": "比亚迪汽车售后服务流程（官网品牌页）",
+    "source_url": "https://www.byd.com/cn/after-sales-service",
+    "source_type": "official",
+    "published_on": null,
+    "market": "中国大陆",
+    "applies_to_make": "比亚迪",
+    "path": "byd_after_sales_service.html",
+    "content_selector": ".cmp__ass-section-05"
+  }
+]
+
