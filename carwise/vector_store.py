@@ -1,4 +1,4 @@
-"""Small, inspectable vector store backed by SQLite and exact cosine search."""
+"""SQLite storage with exact cosine search."""
 
 import json
 import sqlite3
@@ -36,6 +36,19 @@ class VectorStore:
             return int(connection.execute(
                 "SELECT COUNT(*) FROM chunks WHERE document_id = ?", (document_id,)
             ).fetchone()[0])
+
+    def first_service_passage(self, document_ids: list[str]) -> tuple[str, dict[str, str]] | None:
+        if not document_ids:
+            return None
+        placeholders = ",".join("?" for _ in document_ids)
+        with self._connect() as connection:
+            row = connection.execute(
+                f"SELECT body, metadata FROM chunks WHERE document_id IN ({placeholders}) "
+                "AND body LIKE '%车辆在%' AND body LIKE '%进行首保%' "
+                "ORDER BY document_id LIMIT 1",
+                document_ids,
+            ).fetchone()
+        return (row[0], json.loads(row[1])) if row else None
 
     def replace_document(
         self,

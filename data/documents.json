@@ -13,7 +13,7 @@
       "byd-2026-qin-l-dm-i-1668"
     ],
     "path": "qin_l_manual_2026.pdf",
-    "page_ranges": [[1, 70], [340, 400]]
+    "page_ranges": [[1, 410]]
   },
   {
     "id": "byd-qin-plus-manual-2026",
@@ -28,7 +28,7 @@
       "byd-2026-qin-plus-dm-i-1686"
     ],
     "path": "qin_plus_manual_2026.pdf",
-    "page_ranges": [[1, 70], [335, 395]]
+    "page_ranges": [[1, 403]]
   },
   {
     "id": "byd-song-l-manual-2026",
@@ -43,7 +43,7 @@
       "byd-2026-song-l-dm-i-1673"
     ],
     "path": "song_l_manual_2026.pdf",
-    "page_ranges": [[1, 65], [325, 370]]
+    "page_ranges": [[1, 380]]
   },
   {
     "id": "byd-haiou-manual-2026",
@@ -59,7 +59,7 @@
       "byd-2026-haiou-1614"
     ],
     "path": "haiou_manual_2026.pdf",
-    "page_ranges": [[1, 65], [300, 344]]
+    "page_ranges": [[1, 354]]
   },
   {
     "id": "byd-haishi-06-ev-manual-2026",
@@ -79,7 +79,90 @@
       "byd-2026-haishi-06-ev-1589"
     ],
     "path": "haishi_06_ev_manual_2026.pdf",
-    "page_ranges": [[1, 65], [335, 380]]
+    "page_ranges": [[1, 384]]
+  },
+  {
+    "id": "byd-haishi-06-dm-i-manual-2026",
+    "title": "2026款海狮06 DM-i用户手册",
+    "source_url": "https://www.byd.com/material/domestic-official/user-manual/ocean/2026款海狮06 DM-i用户手册260526.pdf",
+    "source_type": "official",
+    "published_on": "2026-08-11",
+    "market": "中国大陆",
+    "vehicle_ids": [
+      "byd-2026-haishi-06-dm-i-1620",
+      "byd-2026-haishi-06-dm-i-1626",
+      "byd-2026-haishi-06-dm-i-1624",
+      "byd-2026-haishi-06-dm-i-1625"
+    ],
+    "path": "haishi_06_dm_i_manual_2026.pdf",
+    "page_ranges": [[1, 396]]
+  },
+  {
+    "id": "byd-haibao-06-dm-i-wagon-manual-2026",
+    "title": "2026款海豹06 DM-i旅行版用户手册",
+    "source_url": "https://www.byd.com/material/__CN/domestic-official/user-manual/ocean/2026款海豹06DM-i旅行版用户手册260825.pdf",
+    "source_type": "official",
+    "published_on": "2026-08-25",
+    "market": "中国大陆",
+    "vehicle_ids": [
+      "byd-2026-haibao-06-dm-i-wagon-1596",
+      "byd-2026-haibao-06-dm-i-wagon-1595",
+      "byd-2026-haibao-06-dm-i-wagon-1594",
+      "byd-2026-haibao-06-dm-i-wagon-1597"
+    ],
+    "path": "haibao_06_dm_i_wagon_manual_2026.pdf",
+    "page_ranges": [[1, 386]]
+  },
+  {
+    "id": "byd-haibao-06-gt-manual-2026",
+    "title": "2026款海豹06GT用户手册",
+    "source_url": "https://www.byd.com/material/__CN/domestic-official/user-manual/ocean/2026款海豹06GT用户手册261030.pdf",
+    "source_type": "official",
+    "published_on": null,
+    "market": "中国大陆",
+    "vehicle_ids": [
+      "byd-2026-haibao-06-gt-1591",
+      "byd-2026-haibao-06-gt-1590",
+      "byd-2026-haibao-06-gt-1593",
+      "byd-2026-haibao-06-gt-1592"
+    ],
+    "path": "haibao_06_gt_manual_2026.pdf",
+    "page_ranges": [[1, 380]]
+  },
+  {
+    "id": "byd-haibao-07-dm-i-manual-2026",
+    "title": "2026款海豹07 DM-i用户手册",
+    "source_url": "https://www.byd.com/material/domestic-official/user-manual/ocean/2026款海豹07DM-i用户手册260604.pdf",
+    "source_type": "official",
+    "published_on": null,
+    "market": "中国大陆",
+    "vehicle_ids": [
+      "byd-2026-haibao-07-dm-i-1566",
+      "byd-2026-haibao-07-dm-i-1567",
+      "byd-2026-haibao-07-dm-i-1568",
+      "byd-2026-haibao-07-dm-i-1569"
+    ],
+    "path": "haibao_07_dm_i_manual_2026.pdf",
+    "page_ranges": [[1, 402]]
+  },
+  {
+    "id": "byd-xia-manual-unmarked",
+    "title": "夏用户手册（官网未标年款）",
+    "source_url": "https://www.byd.com/material/domestic-official/user-manual/dynasty/夏用户手册_250905.zip",
+    "source_type": "official",
+    "published_on": "2025-09-22",
+    "market": "中国大陆",
+    "vehicle_ids": [
+      "byd-2026-xia-1678",
+      "byd-2026-xia-1677",
+      "byd-2026-xia-1680",
+      "byd-2026-xia-1681",
+      "byd-2026-xia-1679"
+    ],
+    "path": "xia_manual_official_unmarked.pdf",
+    "archive_path": "xia_manual_2025.zip",
+    "applicability_note": "官网只标注夏，未说明这份手册与 2026 款各配置完全一致；配置差异应以购车合同和实车为准。",
+    "page_ranges": [[1, 464]]
   },
   {
     "id": "byd-after-sales-process",

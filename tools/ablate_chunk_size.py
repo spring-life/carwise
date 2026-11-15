@@ -1,4 +1,4 @@
-"""Compare chunk sizes on the development questions using temporary indexes."""
+"""Measure retrieval at several chunk sizes using temporary indexes."""
 
 import gc
 import json

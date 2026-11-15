@@ -9,7 +9,7 @@ from pypdf import PdfReader
 
 from .config import Settings
 from .catalog import Catalog
-from .models import Citation, DocumentRecord
+from .models import AskResponse, Citation, DocumentRecord
 from .vector_store import VectorStore
 
 
@@ -105,7 +105,8 @@ class KnowledgeBase:
     MIN_SIMILARITY = 0.58
     SERVICE_PAGE_MIN_SIMILARITY = 0.54
     UNSUPPORTED_METRICS = (
-        "满意度", "投诉率", "故障率", "实际成交均价", "真实道路油耗", "真实道路平均油耗", "售后体验"
+        "满意度", "投诉率", "投诉量", "故障率", "实际成交均价", "真实道路油耗", "真实道路平均油耗", "售后体验",
+        "实测油耗", "车主平均维修费用", "平均维修费用", "事故后理赔成功率", "车主平均售后等待", "真实道路续航",
     )
 
     def __init__(self, settings: Settings, embeddings: OllamaEmbeddings | None = None):
@@ -125,6 +126,39 @@ class KnowledgeBase:
 
     def count(self) -> int:
         return self.store.count()
+
+    def first_service_answer(self, question: str, vehicle_ids: list[str]) -> AskResponse | None:
+        if len(vehicle_ids) != 1 or "首保后" in question or not any(
+            term in question for term in ("首保", "首次保养", "第一次保养")
+        ):
+            return None
+        document_ids = [
+            record.id for record in self.records
+            if record.source_type == "official" and vehicle_ids[0] in self.linked_vehicle_ids(record)
+        ]
+        passage = self.store.first_service_passage(document_ids)
+        if passage is None:
+            return None
+        body, metadata = passage
+        asks_for_items = any(term in question for term in ("换", "包括", "项目"))
+        if asks_for_items and "首次保养项目" not in body:
+            return None
+        start = body.find("车辆在")
+        end = body.find("常规保养", start)
+        if start < 0:
+            return None
+        quote = body[start:end if end >= 0 else None].strip()
+        citation = Citation(
+            id="S1", document_id=metadata["document_id"], title=metadata["title"],
+            url=metadata["source_url"], source_type=metadata["source_type"],
+            published_on=metadata["published_on"] or None, location=metadata["location"],
+            excerpt=body, applicability_note=metadata.get("applicability_note") or None,
+        )
+        note = f"资料适用性提示：{citation.applicability_note}\n\n" if citation.applicability_note else ""
+        return AskResponse(
+            answer=f"{note}根据已收录资料，相关原文如下：\n\n[S1] {quote}",
+            citations=[citation], mode="evidence_selected",
+        )
 
     def page_text(self, document_id: str, page_number: int) -> tuple[DocumentRecord, str]:
         record = next((item for item in self.records if item.id == document_id), None)
@@ -171,6 +205,7 @@ class KnowledgeBase:
                         "market": record.market,
                         "vehicle_ids": json.dumps(self.linked_vehicle_ids(record), ensure_ascii=False),
                         "location": location,
+                        "applicability_note": record.applicability_note or "",
                     })
             if chunks:
                 vectors = self.embeddings.embed(chunks)
@@ -192,7 +227,10 @@ class KnowledgeBase:
         ]
         if vehicle_ids and not eligible_document_ids:
             return []
-        query_vector = self.embeddings.embed([question])[0]
+        query = question
+        if "保养" in question and any(term in question for term in ("特殊情况", "提前", "频繁")):
+            query += " 特殊条件 更频繁 保养计划"
+        query_vector = self.embeddings.embed([query])[0]
         candidates = self.store.search(query_vector, eligible_document_ids if vehicle_ids else None, limit * 10)
         remaining = [
             (excerpt, metadata, score) for excerpt, metadata, score in candidates
@@ -229,6 +267,7 @@ class KnowledgeBase:
                 published_on=metadata["published_on"] or None,
                 location=metadata["location"],
                 excerpt=excerpt,
+                applicability_note=metadata.get("applicability_note") or None,
             ))
             if len(citations) == limit:
                 break
