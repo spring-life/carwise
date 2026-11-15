@@ -1,0 +1,1552 @@
+{
+  "protocol": "Answer quality regression set. Questions and expected facts are fixed before the first run. Checks are exact factual proxies; manual review remains necessary.",
+  "generated_at_utc": "2026-11-15T10:41:42.157117+00:00",
+  "question_count": 76,
+  "summary": {
+    "catalog": {
+      "passed": 36,
+      "total": 36
+    },
+    "manual": {
+      "passed": 20,
+      "total": 22
+    },
+    "refusal": {
+      "passed": 10,
+      "total": 10
+    },
+    "scope": {
+      "passed": 8,
+      "total": 8
+    }
+  },
+  "passed": 74,
+  "results": [
+    {
+      "id": "C01",
+      "group": "catalog",
+      "question": "这款车官方指导价是多少？",
+      "vehicle_ids": [
+        "byd-2026-xia-1677"
+      ],
+      "expected_mode": "catalog",
+      "mode": "catalog",
+      "answer": "比亚迪 夏 2026 100KM进取型（官网参数记录于 2026-11-11）：\n官方指导价：¥206,800",
+      "citations": [
+        {
+          "document_id": "catalog-byd-2026-xia-1677",
+          "location": "100KM进取型",
+          "url": "https://www.byd.com/cn/parameter-comparison?goodsId=151"
+        }
+      ],
+      "elapsed_ms": 8.3,
+      "passed": true,
+      "failures": []
+    },
+    {
+      "id": "C02",
+      "group": "catalog",
+      "question": "宋L DM-i 130KM超越型多少钱？",
+      "vehicle_ids": [
+        "byd-2026-song-l-dm-i-1675"
+      ],
+      "expected_mode": "catalog",
+      "mode": "catalog",
+      "answer": "比亚迪 宋L DM-i 2026 130KM超越型（官网参数记录于 2026-11-11）：\n官方指导价：¥139,800",
+      "citations": [
+        {
+          "document_id": "catalog-byd-2026-song-l-dm-i-1675",
+          "location": "130KM超越型",
+          "url": "https://www.byd.com/cn/parameter-comparison?goodsId=150"
+        }
+      ],
+      "elapsed_ms": 3.9,
+      "passed": true,
+      "failures": []
+    },
+    {
+      "id": "C03",
+      "group": "catalog",
+      "question": "这款车的官方指导价？",
+      "vehicle_ids": [
+        "byd-2026-haishi-06-dm-i-1620"
+      ],
+      "expected_mode": "catalog",
+      "mode": "catalog",
+      "answer": "比亚迪 海狮06DM-i 2026 205领航Pro版（官网参数记录于 2026-11-11）：\n官方指导价：¥139,900",
+      "citations": [
+        {
+          "document_id": "catalog-byd-2026-haishi-06-dm-i-1620",
+          "location": "205领航Pro版",
+          "url": "https://www.byd.com/cn/parameter-comparison?goodsId=10051"
+        }
+      ],
+      "elapsed_ms": 1.7,
+      "passed": true,
+      "failures": []
+    },
+    {
+      "id": "C04",
+      "group": "catalog",
+      "question": "海狮06EV的605旗舰版多少钱？",
+      "vehicle_ids": [
+        "byd-2026-haishi-06-ev-1584"
+      ],
+      "expected_mode": "catalog",
+      "mode": "catalog",
+      "answer": "比亚迪 海狮06EV 2026 605旗舰版（官网参数记录于 2026-11-11）：\n官方指导价：¥168,900",
+      "citations": [
+        {
+          "document_id": "catalog-byd-2026-haishi-06-ev-1584",
+          "location": "605旗舰版",
+          "url": "https://www.byd.com/cn/parameter-comparison?goodsId=10041"
+        }
+      ],
+      "elapsed_ms": 1.9,
+      "passed": true,
+      "failures": []
+    },
+    {
+      "id": "C05",
+      "group": "catalog",
+      "question": "这辆车多少钱？",
+      "vehicle_ids": [
+        "byd-2026-haibao-06-dm-i-wagon-1596"
+      ],
+      "expected_mode": "catalog",
+      "mode": "catalog",
+      "answer": "比亚迪 海豹06DM-i旅行版 2026 200尊享型（官网参数记录于 2026-11-11）：\n官方指导价：¥129,900",
+      "citations": [
+        {
+          "document_id": "catalog-byd-2026-haibao-06-dm-i-wagon-1596",
+          "location": "200尊享型",
+          "url": "https://www.byd.com/cn/parameter-comparison?goodsId=10043"
+        }
+      ],
+      "elapsed_ms": 2.8,
+      "passed": true,
+      "failures": []
+    },
+    {
+      "id": "C06",
+      "group": "catalog",
+      "question": "海豹06GT 520海浪Plus版的指导价？",
+      "vehicle_ids": [
+        "byd-2026-haibao-06-gt-1591"
+      ],
+      "expected_mode": "catalog",
+      "mode": "catalog",
+      "answer": "比亚迪 海豹06GT 2026 520海浪Plus版（官网参数记录于 2026-11-11）：\n官方指导价：¥139,900",
+      "citations": [
+        {
+          "document_id": "catalog-byd-2026-haibao-06-gt-1591",
+          "location": "520海浪Plus版",
+          "url": "https://www.byd.com/cn/parameter-comparison?goodsId=10044"
+        }
+      ],
+      "elapsed_ms": 3.1,
+      "passed": true,
+      "failures": []
+    },
+    {
+      "id": "C07",
+      "group": "catalog",
+      "question": "海豹07DM-i 1.5L 135KM豪华型售价多少？",
+      "vehicle_ids": [
+        "byd-2026-haibao-07-dm-i-1566"
+      ],
+      "expected_mode": "catalog",
+      "mode": "catalog",
+      "answer": "比亚迪 海豹07DM-i 2026 1.5L 135KM豪华型（官网参数记录于 2026-11-11）：\n官方指导价：¥149,800",
+      "citations": [
+        {
+          "document_id": "catalog-byd-2026-haibao-07-dm-i-1566",
+          "location": "1.5L 135KM豪华型",
+          "url": "https://www.byd.com/cn/parameter-comparison?goodsId=10038"
+        }
+      ],
+      "elapsed_ms": 1.7,
+      "passed": true,
+      "failures": []
+    },
+    {
+      "id": "C08",
+      "group": "catalog",
+      "question": "海鸥活力版多少钱？",
+      "vehicle_ids": [
+        "byd-2026-haiou-1616"
+      ],
+      "expected_mode": "catalog",
+      "mode": "catalog",
+      "answer": "比亚迪 海鸥 2026 活力版（官网参数记录于 2026-11-11）：\n官方指导价：¥69,900",
+      "citations": [
+        {
+          "document_id": "catalog-byd-2026-haiou-1616",
+          "location": "活力版",
+          "url": "https://www.byd.com/cn/parameter-comparison?goodsId=10050"
+        }
+      ],
+      "elapsed_ms": 2.3,
+      "passed": true,
+      "failures": []
+    },
+    {
+      "id": "C09",
+      "group": "catalog",
+      "question": "秦L 128KM进取型官方指导价是多少？",
+      "vehicle_ids": [
+        "byd-2026-qin-l-dm-i-1668"
+      ],
+      "expected_mode": "catalog",
+      "mode": "catalog",
+      "answer": "比亚迪 秦L DM-i 2026 128KM进取型（官网参数记录于 2026-11-11）：\n官方指导价：¥96,800",
+      "citations": [
+        {
+          "document_id": "catalog-byd-2026-qin-l-dm-i-1668",
+          "location": "128KM进取型",
+          "url": "https://www.byd.com/cn/parameter-comparison?goodsId=148"
+        }
+      ],
+      "elapsed_ms": 1.5,
+      "passed": true,
+      "failures": []
+    },
+    {
+      "id": "C10",
+      "group": "catalog",
+      "question": "这车多少钱？",
+      "vehicle_ids": [
+        "byd-2026-qin-plus-dm-i-1684"
+      ],
+      "expected_mode": "catalog",
+      "mode": "catalog",
+      "answer": "比亚迪 秦PLUS DM-i 2026 128KM进取型（官网参数记录于 2026-11-11）：\n官方指导价：¥79,800",
+      "citations": [
+        {
+          "document_id": "catalog-byd-2026-qin-plus-dm-i-1684",
+          "location": "128KM进取型",
+          "url": "https://www.byd.com/cn/parameter-comparison?goodsId=152"
+        }
+      ],
+      "elapsed_ms": 1.5,
+      "passed": true,
+      "failures": []
+    },
+    {
+      "id": "C11",
+      "group": "catalog",
+      "question": "这款车发动机规格是什么？",
+      "vehicle_ids": [
+        "byd-2026-xia-1677"
+      ],
+      "expected_mode": "catalog",
+      "mode": "catalog",
+      "answer": "比亚迪 夏 2026 100KM进取型（官网参数记录于 2026-11-15）：\n发动机型号：插混专用1.5T高效发动机\n发动机型式：可变截面涡轮增压/缸内直喷 /中置式进气VVT/全铝合金发动机/米勒循环/高压缩比/超低摩擦\n排量（L）：1.5Ti\n发动机最大功率（kW）：115\n发动机最大扭矩（N·m）：225",
+      "citations": [
+        {
+          "document_id": "catalog-byd-2026-xia-1677",
+          "location": "100KM进取型",
+          "url": "https://www.byd.com/cn/parameter-comparison?goodsId=151"
+        }
+      ],
+      "elapsed_ms": 1.6,
+      "passed": true,
+      "failures": []
+    },
+    {
+      "id": "C12",
+      "group": "catalog",
+      "question": "这款车发动机型号和排量分别多少？",
+      "vehicle_ids": [
+        "byd-2026-xia-1677"
+      ],
+      "expected_mode": "catalog",
+      "mode": "catalog",
+      "answer": "比亚迪 夏 2026 100KM进取型（官网参数记录于 2026-11-15）：\n发动机型号：插混专用1.5T高效发动机\n排量（L）：1.5Ti",
+      "citations": [
+        {
+          "document_id": "catalog-byd-2026-xia-1677",
+          "location": "100KM进取型",
+          "url": "https://www.byd.com/cn/parameter-comparison?goodsId=151"
+        }
+      ],
+      "elapsed_ms": 1.6,
+      "passed": true,
+      "failures": []
+    },
+    {
+      "id": "C13",
+      "group": "catalog",
+      "question": "夏100KM进取型发动机怎么样？",
+      "vehicle_ids": [
+        "byd-2026-xia-1677"
+      ],
+      "expected_mode": "catalog",
+      "mode": "catalog",
+      "answer": "比亚迪 夏 2026 100KM进取型（官网参数记录于 2026-11-15）：\n发动机型号：插混专用1.5T高效发动机\n发动机型式：可变截面涡轮增压/缸内直喷 /中置式进气VVT/全铝合金发动机/米勒循环/高压缩比/超低摩擦\n排量（L）：1.5Ti\n发动机最大功率（kW）：115\n发动机最大扭矩（N·m）：225",
+      "citations": [
+        {
+          "document_id": "catalog-byd-2026-xia-1677",
+          "location": "100KM进取型",
+          "url": "https://www.byd.com/cn/parameter-comparison?goodsId=151"
+        }
+      ],
+      "elapsed_ms": 1.5,
+      "passed": true,
+      "failures": []
+    },
+    {
+      "id": "C14",
+      "group": "catalog",
+      "question": "它的发动机参数给我看看",
+      "vehicle_ids": [
+        "byd-2026-xia-1677"
+      ],
+      "expected_mode": "catalog",
+      "mode": "catalog",
+      "answer": "比亚迪 夏 2026 100KM进取型（官网参数记录于 2026-11-15）：\n发动机型号：插混专用1.5T高效发动机\n发动机型式：可变截面涡轮增压/缸内直喷 /中置式进气VVT/全铝合金发动机/米勒循环/高压缩比/超低摩擦\n排量（L）：1.5Ti\n发动机最大功率（kW）：115\n发动机最大扭矩（N·m）：225",
+      "citations": [
+        {
+          "document_id": "catalog-byd-2026-xia-1677",
+          "location": "100KM进取型",
+          "url": "https://www.byd.com/cn/parameter-comparison?goodsId=151"
+        }
+      ],
+      "elapsed_ms": 1.9,
+      "passed": true,
+      "failures": []
+    },
+    {
+      "id": "C15",
+      "group": "catalog",
+      "question": "这款夏的发动机最大功率和扭矩？",
+      "vehicle_ids": [
+        "byd-2026-xia-1677"
+      ],
+      "expected_mode": "catalog",
+      "mode": "catalog",
+      "answer": "比亚迪 夏 2026 100KM进取型（官网参数记录于 2026-11-15）：\n发动机最大功率（kW）：115\n发动机最大扭矩（N·m）：225",
+      "citations": [
+        {
+          "document_id": "catalog-byd-2026-xia-1677",
+          "location": "100KM进取型",
+          "url": "https://www.byd.com/cn/parameter-comparison?goodsId=151"
+        }
+      ],
+      "elapsed_ms": 1.8,
+      "passed": true,
+      "failures": []
+    },
+    {
+      "id": "C16",
+      "group": "catalog",
+      "question": "这车的动力参数有哪些？",
+      "vehicle_ids": [
+        "byd-2026-xia-1677"
+      ],
+      "expected_mode": "catalog",
+      "mode": "catalog",
+      "answer": "比亚迪 夏 2026 100KM进取型（官网参数记录于 2026-11-15）：\n动力类型：DM-i 插电混动\n发动机型号：插混专用1.5T高效发动机\n发动机型式：可变截面涡轮增压/缸内直喷 /中置式进气VVT/全铝合金发动机/米勒循环/高压缩比/超低摩擦\n排量（L）：1.5Ti\n发动机最大功率（kW）：115\n发动机最大扭矩（N·m）：225\n电机最大功率（kW）：200\n电池容量（kWh）：20.39\nCLTC纯电续驶里程（km）：100",
+      "citations": [
+        {
+          "document_id": "catalog-byd-2026-xia-1677",
+          "location": "100KM进取型",
+          "url": "https://www.byd.com/cn/parameter-comparison?goodsId=151"
+        }
+      ],
+      "elapsed_ms": 1.8,
+      "passed": true,
+      "failures": []
+    },
+    {
+      "id": "C17",
+      "group": "catalog",
+      "question": "动力配置都有什么？",
+      "vehicle_ids": [
+        "byd-2026-song-l-dm-i-1675"
+      ],
+      "expected_mode": "catalog",
+      "mode": "catalog",
+      "answer": "比亚迪 宋L DM-i 2026 130KM超越型（官网参数记录于 2026-11-11）：\n动力类型：DM-i 插电混动\n电机最大功率（kW）：160\n电池容量（kWh）：18.3\nCLTC纯电续驶里程（km）：130",
+      "citations": [
+        {
+          "document_id": "catalog-byd-2026-song-l-dm-i-1675",
+          "location": "130KM超越型",
+          "url": "https://www.byd.com/cn/parameter-comparison?goodsId=150"
+        }
+      ],
+      "elapsed_ms": 1.6,
+      "passed": true,
+      "failures": []
+    },
+    {
+      "id": "C18",
+      "group": "catalog",
+      "question": "海狮06DM-i的动力规格？",
+      "vehicle_ids": [
+        "byd-2026-haishi-06-dm-i-1620"
+      ],
+      "expected_mode": "catalog",
+      "mode": "catalog",
+      "answer": "比亚迪 海狮06DM-i 2026 205领航Pro版（官网参数记录于 2026-11-11）：\n动力类型：DM-i 插电混动\n电池容量（kWh）：26.6",
+      "citations": [
+        {
+          "document_id": "catalog-byd-2026-haishi-06-dm-i-1620",
+          "location": "205领航Pro版",
+          "url": "https://www.byd.com/cn/parameter-comparison?goodsId=10051"
+        }
+      ],
+      "elapsed_ms": 1.6,
+      "passed": true,
+      "failures": []
+    },
+    {
+      "id": "C19",
+      "group": "catalog",
+      "question": "这款纯电车的动力参数？",
+      "vehicle_ids": [
+        "byd-2026-haishi-06-ev-1584"
+      ],
+      "expected_mode": "catalog",
+      "mode": "catalog",
+      "answer": "比亚迪 海狮06EV 2026 605旗舰版（官网参数记录于 2026-11-11）：\n动力类型：纯电\n电池容量（kWh）：69.07",
+      "citations": [
+        {
+          "document_id": "catalog-byd-2026-haishi-06-ev-1584",
+          "location": "605旗舰版",
+          "url": "https://www.byd.com/cn/parameter-comparison?goodsId=10041"
+        }
+      ],
+      "elapsed_ms": 1.5,
+      "passed": true,
+      "failures": []
+    },
+    {
+      "id": "C20",
+      "group": "catalog",
+      "question": "秦L的动力参数有哪些？",
+      "vehicle_ids": [
+        "byd-2026-qin-l-dm-i-1668"
+      ],
+      "expected_mode": "catalog",
+      "mode": "catalog",
+      "answer": "比亚迪 秦L DM-i 2026 128KM进取型（官网参数记录于 2026-11-11）：\n动力类型：DM-i 插电混动\n电机最大功率（kW）：120\n电池容量（kWh）：15.87\nCLTC纯电续驶里程（km）：128",
+      "citations": [
+        {
+          "document_id": "catalog-byd-2026-qin-l-dm-i-1668",
+          "location": "128KM进取型",
+          "url": "https://www.byd.com/cn/parameter-comparison?goodsId=148"
+        }
+      ],
+      "elapsed_ms": 1.9,
+      "passed": true,
+      "failures": []
+    },
+    {
+      "id": "C21",
+      "group": "catalog",
+      "question": "秦PLUS的动力配置如何？",
+      "vehicle_ids": [
+        "byd-2026-qin-plus-dm-i-1684"
+      ],
+      "expected_mode": "catalog",
+      "mode": "catalog",
+      "answer": "比亚迪 秦PLUS DM-i 2026 128KM进取型（官网参数记录于 2026-11-11）：\n动力类型：DM-i 插电混动\n电机最大功率（kW）：120\n电池容量（kWh）：15.87\nCLTC纯电续驶里程（km）：128",
+      "citations": [
+        {
+          "document_id": "catalog-byd-2026-qin-plus-dm-i-1684",
+          "location": "128KM进取型",
+          "url": "https://www.byd.com/cn/parameter-comparison?goodsId=152"
+        }
+      ],
+      "elapsed_ms": 1.8,
+      "passed": true,
+      "failures": []
+    },
+    {
+      "id": "C22",
+      "group": "catalog",
+      "question": "这款车轮胎规格多少？",
+      "vehicle_ids": [
+        "byd-2026-xia-1677"
+      ],
+      "expected_mode": "catalog",
+      "mode": "catalog",
+      "answer": "比亚迪 夏 2026 100KM进取型（官网参数记录于 2026-11-15）：\n轮胎规格：235/60 R18",
+      "citations": [
+        {
+          "document_id": "catalog-byd-2026-xia-1677",
+          "location": "100KM进取型",
+          "url": "https://www.byd.com/cn/parameter-comparison?goodsId=151"
+        }
+      ],
+      "elapsed_ms": 1.5,
+      "passed": true,
+      "failures": []
+    },
+    {
+      "id": "C23",
+      "group": "catalog",
+      "question": "海鸥活力版用什么尺寸轮胎？",
+      "vehicle_ids": [
+        "byd-2026-haiou-1616"
+      ],
+      "expected_mode": "catalog",
+      "mode": "catalog",
+      "answer": "比亚迪 海鸥 2026 活力版（官网参数记录于 2026-11-11）：\n轮胎规格：165/65 R15",
+      "citations": [
+        {
+          "document_id": "catalog-byd-2026-haiou-1616",
+          "location": "活力版",
+          "url": "https://www.byd.com/cn/parameter-comparison?goodsId=10050"
+        }
+      ],
+      "elapsed_ms": 1.5,
+      "passed": true,
+      "failures": []
+    },
+    {
+      "id": "C24",
+      "group": "catalog",
+      "question": "这辆秦L的轮胎是什么规格？",
+      "vehicle_ids": [
+        "byd-2026-qin-l-dm-i-1668"
+      ],
+      "expected_mode": "catalog",
+      "mode": "catalog",
+      "answer": "比亚迪 秦L DM-i 2026 128KM进取型（官网参数记录于 2026-11-11）：\n轮胎规格：225/60 R16",
+      "citations": [
+        {
+          "document_id": "catalog-byd-2026-qin-l-dm-i-1668",
+          "location": "128KM进取型",
+          "url": "https://www.byd.com/cn/parameter-comparison?goodsId=148"
+        }
+      ],
+      "elapsed_ms": 2.4,
+      "passed": true,
+      "failures": []
+    },
+    {
+      "id": "C25",
+      "group": "catalog",
+      "question": "宋L 130KM超越型的轮胎尺寸？",
+      "vehicle_ids": [
+        "byd-2026-song-l-dm-i-1675"
+      ],
+      "expected_mode": "catalog",
+      "mode": "catalog",
+      "answer": "比亚迪 宋L DM-i 2026 130KM超越型（官网参数记录于 2026-11-11）：\n轮胎规格：235/50 R19",
+      "citations": [
+        {
+          "document_id": "catalog-byd-2026-song-l-dm-i-1675",
+          "location": "130KM超越型",
+          "url": "https://www.byd.com/cn/parameter-comparison?goodsId=150"
+        }
+      ],
+      "elapsed_ms": 1.8,
+      "passed": true,
+      "failures": []
+    },
+    {
+      "id": "C26",
+      "group": "catalog",
+      "question": "海狮06EV 605旗舰版轮胎规格？",
+      "vehicle_ids": [
+        "byd-2026-haishi-06-ev-1584"
+      ],
+      "expected_mode": "catalog",
+      "mode": "catalog",
+      "answer": "比亚迪 海狮06EV 2026 605旗舰版（官网参数记录于 2026-11-11）：\n轮胎规格：235/55 R19",
+      "citations": [
+        {
+          "document_id": "catalog-byd-2026-haishi-06-ev-1584",
+          "location": "605旗舰版",
+          "url": "https://www.byd.com/cn/parameter-comparison?goodsId=10041"
+        }
+      ],
+      "elapsed_ms": 1.6,
+      "passed": true,
+      "failures": []
+    },
+    {
+      "id": "C27",
+      "group": "catalog",
+      "question": "这款车的电池容量是多少？",
+      "vehicle_ids": [
+        "byd-2026-xia-1677"
+      ],
+      "expected_mode": "catalog",
+      "mode": "catalog",
+      "answer": "比亚迪 夏 2026 100KM进取型（官网参数记录于 2026-11-15）：\n电池容量（kWh）：20.39",
+      "citations": [
+        {
+          "document_id": "catalog-byd-2026-xia-1677",
+          "location": "100KM进取型",
+          "url": "https://www.byd.com/cn/parameter-comparison?goodsId=151"
+        }
+      ],
+      "elapsed_ms": 1.5,
+      "passed": true,
+      "failures": []
+    },
+    {
+      "id": "C28",
+      "group": "catalog",
+      "question": "秦L 128KM进取型电池多大？",
+      "vehicle_ids": [
+        "byd-2026-qin-l-dm-i-1668"
+      ],
+      "expected_mode": "catalog",
+      "mode": "catalog",
+      "answer": "比亚迪 秦L DM-i 2026 128KM进取型（官网参数记录于 2026-11-11）：\n电池容量（kWh）：15.87",
+      "citations": [
+        {
+          "document_id": "catalog-byd-2026-qin-l-dm-i-1668",
+          "location": "128KM进取型",
+          "url": "https://www.byd.com/cn/parameter-comparison?goodsId=148"
+        }
+      ],
+      "elapsed_ms": 1.5,
+      "passed": true,
+      "failures": []
+    },
+    {
+      "id": "C29",
+      "group": "catalog",
+      "question": "海狮06EV的电池容量呢？",
+      "vehicle_ids": [
+        "byd-2026-haishi-06-ev-1584"
+      ],
+      "expected_mode": "catalog",
+      "mode": "catalog",
+      "answer": "比亚迪 海狮06EV 2026 605旗舰版（官网参数记录于 2026-11-11）：\n电池容量（kWh）：69.07",
+      "citations": [
+        {
+          "document_id": "catalog-byd-2026-haishi-06-ev-1584",
+          "location": "605旗舰版",
+          "url": "https://www.byd.com/cn/parameter-comparison?goodsId=10041"
+        }
+      ],
+      "elapsed_ms": 1.7,
+      "passed": true,
+      "failures": []
+    },
+    {
+      "id": "C30",
+      "group": "catalog",
+      "question": "这款车标称亏电油耗多少？",
+      "vehicle_ids": [
+        "byd-2026-xia-1677"
+      ],
+      "expected_mode": "catalog",
+      "mode": "catalog",
+      "answer": "比亚迪 夏 2026 100KM进取型（官网参数记录于 2026-11-11）：\nNEDC 亏电油耗（L/100km）：4.9",
+      "citations": [
+        {
+          "document_id": "catalog-byd-2026-xia-1677",
+          "location": "100KM进取型",
+          "url": "https://www.byd.com/cn/parameter-comparison?goodsId=151"
+        }
+      ],
+      "elapsed_ms": 1.5,
+      "passed": true,
+      "failures": []
+    },
+    {
+      "id": "C31",
+      "group": "catalog",
+      "question": "秦L的官方标称亏电油耗是多少？",
+      "vehicle_ids": [
+        "byd-2026-qin-l-dm-i-1668"
+      ],
+      "expected_mode": "catalog",
+      "mode": "catalog",
+      "answer": "比亚迪 秦L DM-i 2026 128KM进取型（官网参数记录于 2026-11-11）：\nNEDC 亏电油耗（L/100km）：2.79",
+      "citations": [
+        {
+          "document_id": "catalog-byd-2026-qin-l-dm-i-1668",
+          "location": "128KM进取型",
+          "url": "https://www.byd.com/cn/parameter-comparison?goodsId=148"
+        }
+      ],
+      "elapsed_ms": 1.9,
+      "passed": true,
+      "failures": []
+    },
+    {
+      "id": "C32",
+      "group": "catalog",
+      "question": "这款车的纯电续航有多少？",
+      "vehicle_ids": [
+        "byd-2026-xia-1677"
+      ],
+      "expected_mode": "catalog",
+      "mode": "catalog",
+      "answer": "比亚迪 夏 2026 100KM进取型（官网参数记录于 2026-11-15）：\nCLTC纯电续驶里程（km）：100",
+      "citations": [
+        {
+          "document_id": "catalog-byd-2026-xia-1677",
+          "location": "100KM进取型",
+          "url": "https://www.byd.com/cn/parameter-comparison?goodsId=151"
+        }
+      ],
+      "elapsed_ms": 1.5,
+      "passed": true,
+      "failures": []
+    },
+    {
+      "id": "C33",
+      "group": "catalog",
+      "question": "宋L 130KM超越型的纯电续航？",
+      "vehicle_ids": [
+        "byd-2026-song-l-dm-i-1675"
+      ],
+      "expected_mode": "catalog",
+      "mode": "catalog",
+      "answer": "比亚迪 宋L DM-i 2026 130KM超越型（官网参数记录于 2026-11-11）：\nCLTC纯电续驶里程（km）：130",
+      "citations": [
+        {
+          "document_id": "catalog-byd-2026-song-l-dm-i-1675",
+          "location": "130KM超越型",
+          "url": "https://www.byd.com/cn/parameter-comparison?goodsId=150"
+        }
+      ],
+      "elapsed_ms": 2.0,
+      "passed": true,
+      "failures": []
+    },
+    {
+      "id": "C34",
+      "group": "catalog",
+      "question": "夏100KM超越型发动机规格如何？",
+      "vehicle_ids": [
+        "byd-2026-xia-1678"
+      ],
+      "expected_mode": "catalog",
+      "mode": "catalog",
+      "answer": "比亚迪 夏 2026 100KM超越型（官网参数记录于 2026-11-15）：\n发动机型号：插混专用1.5T高效发动机\n发动机型式：可变截面涡轮增压/缸内直喷 /中置式进气VVT/全铝合金发动机/米勒循环/高压缩比/超低摩擦\n排量（L）：1.5Ti\n发动机最大功率（kW）：115\n发动机最大扭矩（N·m）：225",
+      "citations": [
+        {
+          "document_id": "catalog-byd-2026-xia-1678",
+          "location": "100KM超越型",
+          "url": "https://www.byd.com/cn/parameter-comparison?goodsId=151"
+        }
+      ],
+      "elapsed_ms": 1.6,
+      "passed": true,
+      "failures": []
+    },
+    {
+      "id": "C35",
+      "group": "catalog",
+      "question": "夏218KM超越型动力数据？",
+      "vehicle_ids": [
+        "byd-2026-xia-1679"
+      ],
+      "expected_mode": "catalog",
+      "mode": "catalog",
+      "answer": "比亚迪 夏 2026 218KM超越型（官网参数记录于 2026-11-15）：\n动力类型：DM-i 插电混动\n发动机型号：插混专用1.5T高效发动机\n发动机型式：可变截面涡轮增压/缸内直喷 /中置式进气VVT/全铝合金发动机/米勒循环/高压缩比/超低摩擦\n排量（L）：1.5Ti\n发动机最大功率（kW）：115\n发动机最大扭矩（N·m）：225\n电机最大功率（kW）：200\n电池容量（kWh）：36.6\nCLTC纯电续驶里程（km）：203/218（长续航）",
+      "citations": [
+        {
+          "document_id": "catalog-byd-2026-xia-1679",
+          "location": "218KM超越型",
+          "url": "https://www.byd.com/cn/parameter-comparison?goodsId=151"
+        }
+      ],
+      "elapsed_ms": 1.6,
+      "passed": true,
+      "failures": []
+    },
+    {
+      "id": "C36",
+      "group": "catalog",
+      "question": "这款车的座椅通风加热有吗？",
+      "vehicle_ids": [
+        "byd-2026-qin-l-dm-i-1668"
+      ],
+      "expected_mode": "catalog",
+      "mode": "catalog",
+      "answer": "比亚迪 秦L DM-i 2026 128KM进取型（官网参数记录于 2026-11-11）：\n前排座椅通风加热：无",
+      "citations": [
+        {
+          "document_id": "catalog-byd-2026-qin-l-dm-i-1668",
+          "location": "128KM进取型",
+          "url": "https://www.byd.com/cn/parameter-comparison?goodsId=148"
+        }
+      ],
+      "elapsed_ms": 1.5,
+      "passed": true,
+      "failures": []
+    },
+    {
+      "id": "M01",
+      "group": "manual",
+      "question": "这款车第一次保养多久去？",
+      "vehicle_ids": [
+        "byd-2026-xia-1677"
+      ],
+      "expected_mode": "evidence_selected",
+      "mode": "evidence_selected",
+      "answer": "资料适用性提示：官网只标注夏，未说明这份手册与 2026 款各配置完全一致；配置差异应以购车合同和实车为准。\n\n根据已收录资料，相关原文如下：\n\n[S1] 车辆在 6 个月或 5000km(HEV 里程)进行首保，保养时间和保养里程以先\n到者为准。\n首次保养项目包含整车基础保养、更换发动机机油及机油滤清器，检查发\n动机怠速、曲轴箱通风系统。",
+      "citations": [
+        {
+          "document_id": "byd-xia-manual-unmarked",
+          "location": "第 405 页",
+          "url": "https://www.byd.com/material/domestic-official/user-manual/dynasty/%E5%A4%8F%E7%94%A8%E6%88%B7%E6%89%8B%E5%86%8C_250905.zip"
+        }
+      ],
+      "elapsed_ms": 67.3,
+      "passed": true,
+      "failures": []
+    },
+    {
+      "id": "M02",
+      "group": "manual",
+      "question": "夏首保是不是按时间和里程先到的算？",
+      "vehicle_ids": [
+        "byd-2026-xia-1677"
+      ],
+      "expected_mode": "evidence_selected",
+      "mode": "evidence_selected",
+      "answer": "资料适用性提示：官网只标注夏，未说明这份手册与 2026 款各配置完全一致；配置差异应以购车合同和实车为准。\n\n根据已收录资料，相关原文如下：\n\n[S1] 车辆在 6 个月或 5000km(HEV 里程)进行首保，保养时间和保养里程以先\n到者为准。\n首次保养项目包含整车基础保养、更换发动机机油及机油滤清器，检查发\n动机怠速、曲轴箱通风系统。",
+      "citations": [
+        {
+          "document_id": "byd-xia-manual-unmarked",
+          "location": "第 405 页",
+          "url": "https://www.byd.com/material/domestic-official/user-manual/dynasty/%E5%A4%8F%E7%94%A8%E6%88%B7%E6%89%8B%E5%86%8C_250905.zip"
+        }
+      ],
+      "elapsed_ms": 9.7,
+      "passed": true,
+      "failures": []
+    },
+    {
+      "id": "M03",
+      "group": "manual",
+      "question": "宋L DM-i什么时候首保？",
+      "vehicle_ids": [
+        "byd-2026-song-l-dm-i-1675"
+      ],
+      "expected_mode": "evidence_selected",
+      "mode": "evidence_selected",
+      "answer": "根据已收录资料，相关原文如下：\n\n[S1] 车辆在 6 个月或 5000km(HEV 里程)进行首保， 保养时间和保养里程以先\n到者为准。\n首次保养项目包含整车基础保养、 更换发动机机油及机油滤清器， 检查\n发动机怠速、 曲轴箱通风系统。",
+      "citations": [
+        {
+          "document_id": "byd-song-l-manual-2026",
+          "location": "第 331 页",
+          "url": "https://www.byd.com/material/domestic-official/user-manual/dynasty/2026%E6%AC%BE%E5%AE%8BL%20DM-i%E7%94%A8%E6%88%B7%E6%89%8B%E5%86%8C%20260420.pdf"
+        }
+      ],
+      "elapsed_ms": 46.7,
+      "passed": true,
+      "failures": []
+    },
+    {
+      "id": "M04",
+      "group": "manual",
+      "question": "宋L DM-i首保要换机油吗？",
+      "vehicle_ids": [
+        "byd-2026-song-l-dm-i-1675"
+      ],
+      "expected_mode": "evidence_selected",
+      "mode": "evidence_selected",
+      "answer": "根据已收录资料，相关原文如下：\n\n[S1] 车辆在 6 个月或 5000km(HEV 里程)进行首保， 保养时间和保养里程以先\n到者为准。\n首次保养项目包含整车基础保养、 更换发动机机油及机油滤清器， 检查\n发动机怠速、 曲轴箱通风系统。",
+      "citations": [
+        {
+          "document_id": "byd-song-l-manual-2026",
+          "location": "第 331 页",
+          "url": "https://www.byd.com/material/domestic-official/user-manual/dynasty/2026%E6%AC%BE%E5%AE%8BL%20DM-i%E7%94%A8%E6%88%B7%E6%89%8B%E5%86%8C%20260420.pdf"
+        }
+      ],
+      "elapsed_ms": 12.5,
+      "passed": true,
+      "failures": []
+    },
+    {
+      "id": "M05",
+      "group": "manual",
+      "question": "海狮06DM-i的首次保养间隔？",
+      "vehicle_ids": [
+        "byd-2026-haishi-06-dm-i-1620"
+      ],
+      "expected_mode": "evidence_selected",
+      "mode": "evidence_selected",
+      "answer": "根据已收录资料，相关原文如下：\n\n[S1] 车辆在 6 个月或 5000km(HEV 里程)进行首保， 保养时间和保养里程以先\n到者为准。\n首次保养项目包含整车基础保养、 更换发动机机油及机油滤清器， 检查\n发动机怠速、 曲轴箱通风系统。",
+      "citations": [
+        {
+          "document_id": "byd-haishi-06-dm-i-manual-2026",
+          "location": "第 345 页",
+          "url": "https://www.byd.com/material/domestic-official/user-manual/ocean/2026%E6%AC%BE%E6%B5%B7%E7%8B%AE06%20DM-i%E7%94%A8%E6%88%B7%E6%89%8B%E5%86%8C260526.pdf"
+        }
+      ],
+      "elapsed_ms": 33.8,
+      "passed": true,
+      "failures": []
+    },
+    {
+      "id": "M06",
+      "group": "manual",
+      "question": "海狮06DM-i首保包括更换什么？",
+      "vehicle_ids": [
+        "byd-2026-haishi-06-dm-i-1620"
+      ],
+      "expected_mode": "evidence_selected",
+      "mode": "evidence_selected",
+      "answer": "根据已收录资料，相关原文如下：\n\n[S1] 车辆在 6 个月或 5000km(HEV 里程)进行首保， 保养时间和保养里程以先\n到者为准。\n首次保养项目包含整车基础保养、 更换发动机机油及机油滤清器， 检查\n发动机怠速、 曲轴箱通风系统。",
+      "citations": [
+        {
+          "document_id": "byd-haishi-06-dm-i-manual-2026",
+          "location": "第 345 页",
+          "url": "https://www.byd.com/material/domestic-official/user-manual/ocean/2026%E6%AC%BE%E6%B5%B7%E7%8B%AE06%20DM-i%E7%94%A8%E6%88%B7%E6%89%8B%E5%86%8C260526.pdf"
+        }
+      ],
+      "elapsed_ms": 11.5,
+      "passed": true,
+      "failures": []
+    },
+    {
+      "id": "M07",
+      "group": "manual",
+      "question": "海豹06DM-i旅行版首保多久？",
+      "vehicle_ids": [
+        "byd-2026-haibao-06-dm-i-wagon-1596"
+      ],
+      "expected_mode": "evidence_selected",
+      "mode": "evidence_selected",
+      "answer": "根据已收录资料，相关原文如下：\n\n[S1] 车辆在 6 个月或 5000km(HEV 里程)进行首保， 保养时间和保养里程以先\n到者为准。\n首次保养项目包含整车基础保养、 更换发动机机油及机油滤清器， 检查\n发动机怠速、 曲轴箱通风系统。",
+      "citations": [
+        {
+          "document_id": "byd-haibao-06-dm-i-wagon-manual-2026",
+          "location": "第 337 页",
+          "url": "https://www.byd.com/material/__CN/domestic-official/user-manual/ocean/2026%E6%AC%BE%E6%B5%B7%E8%B1%B906DM-i%E6%97%85%E8%A1%8C%E7%89%88%E7%94%A8%E6%88%B7%E6%89%8B%E5%86%8C260825.pdf"
+        }
+      ],
+      "elapsed_ms": 14.2,
+      "passed": true,
+      "failures": []
+    },
+    {
+      "id": "M08",
+      "group": "manual",
+      "question": "海豹06DM-i旅行版首保要换发动机机油吗？",
+      "vehicle_ids": [
+        "byd-2026-haibao-06-dm-i-wagon-1596"
+      ],
+      "expected_mode": "evidence_selected",
+      "mode": "evidence_selected",
+      "answer": "根据已收录资料，相关原文如下：\n\n[S1] 车辆在 6 个月或 5000km(HEV 里程)进行首保， 保养时间和保养里程以先\n到者为准。\n首次保养项目包含整车基础保养、 更换发动机机油及机油滤清器， 检查\n发动机怠速、 曲轴箱通风系统。",
+      "citations": [
+        {
+          "document_id": "byd-haibao-06-dm-i-wagon-manual-2026",
+          "location": "第 337 页",
+          "url": "https://www.byd.com/material/__CN/domestic-official/user-manual/ocean/2026%E6%AC%BE%E6%B5%B7%E8%B1%B906DM-i%E6%97%85%E8%A1%8C%E7%89%88%E7%94%A8%E6%88%B7%E6%89%8B%E5%86%8C260825.pdf"
+        }
+      ],
+      "elapsed_ms": 8.8,
+      "passed": true,
+      "failures": []
+    },
+    {
+      "id": "M09",
+      "group": "manual",
+      "question": "海豹07DM-i多久进行第一次保养？",
+      "vehicle_ids": [
+        "byd-2026-haibao-07-dm-i-1566"
+      ],
+      "expected_mode": "evidence_selected",
+      "mode": "evidence_selected",
+      "answer": "根据已收录资料，相关原文如下：\n\n[S1] 车辆在 6 个月或 5000km(HEV 里程)进行首保，保养时间和保养里程以先\n到者为准。\n首次保养项目包含整车基础保养、更换发动机机油及机油滤清器，检查发\n动机怠速、曲轴箱通风系统。",
+      "citations": [
+        {
+          "document_id": "byd-haibao-07-dm-i-manual-2026",
+          "location": "第 347 页",
+          "url": "https://www.byd.com/material/domestic-official/user-manual/ocean/2026%E6%AC%BE%E6%B5%B7%E8%B1%B907DM-i%E7%94%A8%E6%88%B7%E6%89%8B%E5%86%8C260604.pdf"
+        }
+      ],
+      "elapsed_ms": 9.7,
+      "passed": true,
+      "failures": []
+    },
+    {
+      "id": "M10",
+      "group": "manual",
+      "question": "海豹07DM-i首保是不是要换机油滤清器？",
+      "vehicle_ids": [
+        "byd-2026-haibao-07-dm-i-1566"
+      ],
+      "expected_mode": "evidence_selected",
+      "mode": "evidence_selected",
+      "answer": "根据已收录资料，相关原文如下：\n\n[S1] 车辆在 6 个月或 5000km(HEV 里程)进行首保，保养时间和保养里程以先\n到者为准。\n首次保养项目包含整车基础保养、更换发动机机油及机油滤清器，检查发\n动机怠速、曲轴箱通风系统。",
+      "citations": [
+        {
+          "document_id": "byd-haibao-07-dm-i-manual-2026",
+          "location": "第 347 页",
+          "url": "https://www.byd.com/material/domestic-official/user-manual/ocean/2026%E6%AC%BE%E6%B5%B7%E8%B1%B907DM-i%E7%94%A8%E6%88%B7%E6%89%8B%E5%86%8C260604.pdf"
+        }
+      ],
+      "elapsed_ms": 6.1,
+      "passed": true,
+      "failures": []
+    },
+    {
+      "id": "M11",
+      "group": "manual",
+      "question": "秦L DM-i首保几个月或几公里？",
+      "vehicle_ids": [
+        "byd-2026-qin-l-dm-i-1668"
+      ],
+      "expected_mode": "evidence_selected",
+      "mode": "evidence_selected",
+      "answer": "根据已收录资料，相关原文如下：\n\n[S1] 车辆在 6 个月或 5000km(HEV 里程)进行首保， 保养时间和保养里程以先\n到者为准。\n首次保养项目包含整车基础保养、 更换发动机机油及机油滤清器， 检查\n发动机怠速、 曲轴箱通风系统。",
+      "citations": [
+        {
+          "document_id": "byd-qin-l-manual-2026",
+          "location": "第 355 页",
+          "url": "https://www.byd.com/material/domestic-official/user-manual/dynasty/2026%E6%AC%BE%E7%A7%A6L%20DM-i%E7%94%A8%E6%88%B7%E6%89%8B%E5%86%8C20260417.pdf"
+        }
+      ],
+      "elapsed_ms": 32.7,
+      "passed": true,
+      "failures": []
+    },
+    {
+      "id": "M12",
+      "group": "manual",
+      "question": "秦L首保要更换机油滤清器吗？",
+      "vehicle_ids": [
+        "byd-2026-qin-l-dm-i-1668"
+      ],
+      "expected_mode": "evidence_selected",
+      "mode": "evidence_selected",
+      "answer": "根据已收录资料，相关原文如下：\n\n[S1] 车辆在 6 个月或 5000km(HEV 里程)进行首保， 保养时间和保养里程以先\n到者为准。\n首次保养项目包含整车基础保养、 更换发动机机油及机油滤清器， 检查\n发动机怠速、 曲轴箱通风系统。",
+      "citations": [
+        {
+          "document_id": "byd-qin-l-manual-2026",
+          "location": "第 355 页",
+          "url": "https://www.byd.com/material/domestic-official/user-manual/dynasty/2026%E6%AC%BE%E7%A7%A6L%20DM-i%E7%94%A8%E6%88%B7%E6%89%8B%E5%86%8C20260417.pdf"
+        }
+      ],
+      "elapsed_ms": 13.2,
+      "passed": true,
+      "failures": []
+    },
+    {
+      "id": "M13",
+      "group": "manual",
+      "question": "秦PLUS DM-i首次保养看时间还是HEV里程？",
+      "vehicle_ids": [
+        "byd-2026-qin-plus-dm-i-1684"
+      ],
+      "expected_mode": "evidence_selected",
+      "mode": "evidence_selected",
+      "answer": "根据已收录资料，相关原文如下：\n\n[S1] 车辆在 6 个月或 5000km(HEV 里程)进行首保，保养时间和保养里程以先\n到者为准。\n344 6-1 保养须知",
+      "citations": [
+        {
+          "document_id": "byd-qin-plus-manual-2026",
+          "location": "第 344 页",
+          "url": "https://www.byd.com/material/domestic-official/user-manual/dynasty/2026%E6%AC%BE%E7%A7%A6PLUS%20DM-i%E7%94%A8%E6%88%B7%E6%89%8B%E5%86%8C260430-new.pdf"
+        }
+      ],
+      "elapsed_ms": 36.3,
+      "passed": true,
+      "failures": []
+    },
+    {
+      "id": "M14",
+      "group": "manual",
+      "question": "秦PLUS首保要换什么滤清器？",
+      "vehicle_ids": [
+        "byd-2026-qin-plus-dm-i-1684"
+      ],
+      "expected_mode": "evidence_selected",
+      "mode": "evidence_selected",
+      "answer": "根据已收录资料，相关原文如下：\n\n[S1] 更换机油及机油滤清器 首保后每 12 个月或 10000km 更换",
+      "citations": [
+        {
+          "document_id": "byd-qin-plus-manual-2026",
+          "location": "第 347 页",
+          "url": "https://www.byd.com/material/domestic-official/user-manual/dynasty/2026%E6%AC%BE%E7%A7%A6PLUS%20DM-i%E7%94%A8%E6%88%B7%E6%89%8B%E5%86%8C260430-new.pdf"
+        }
+      ],
+      "elapsed_ms": 5396.1,
+      "passed": true,
+      "failures": []
+    },
+    {
+      "id": "M15",
+      "group": "manual",
+      "question": "海鸥保养计划按时间还是里程？",
+      "vehicle_ids": [
+        "byd-2026-haiou-1616"
+      ],
+      "expected_mode": "evidence_selected",
+      "mode": "evidence_selected",
+      "answer": "根据已收录资料，相关原文如下：\n\n[S1] 计划保养的间隔可参看周期表，按里程表的读数或时间间隔而定，以先\n到者为准。\n\n[S2] 如果主要是在下列一种或一种以上的特殊条件下操作车辆，则某些保养计\n划项目需要更频繁的进行。\n路面状况",
+      "citations": [
+        {
+          "document_id": "byd-haiou-manual-2026",
+          "location": "第 308 页",
+          "url": "https://www.byd.com/material/domestic-official/user-manual/ocean/2026%E6%AC%BE%E6%B5%B7%E9%B8%A5%E7%94%A8%E6%88%B7%E6%89%8B%E5%86%8C260317.pdf"
+        },
+        {
+          "document_id": "byd-haiou-manual-2026",
+          "location": "第 308 页",
+          "url": "https://www.byd.com/material/domestic-official/user-manual/ocean/2026%E6%AC%BE%E6%B5%B7%E9%B8%A5%E7%94%A8%E6%88%B7%E6%89%8B%E5%86%8C260317.pdf"
+        }
+      ],
+      "elapsed_ms": 1562.7,
+      "passed": true,
+      "failures": []
+    },
+    {
+      "id": "M16",
+      "group": "manual",
+      "question": "海鸥胎压监测故障灯一直亮，怎么办？",
+      "vehicle_ids": [
+        "byd-2026-haiou-1616"
+      ],
+      "expected_mode": "evidence_selected",
+      "mode": "evidence_selected",
+      "answer": "根据已收录资料，相关原文如下：\n\n[S1] 坏，请立即停止驾驶，不要待显示器发出报警信号后才停车。\n\n[S2] 当四轮中的任意一轮胎压值低于标准胎压值的 75%且系统运行状态下，\n胎压故障灯点亮，胎压值变为黄色，建议您停车检查相应的轮胎是否有\n慢漏气的现象，并将气压充到合理的范围。\n\n[S3] 当胎压监测系统使用的信号接收不到或无效时，仪表上指示灯显示\n 会闪\n烁 60s 后常亮、",
+      "citations": [
+        {
+          "document_id": "byd-haiou-manual-2026",
+          "location": "第 267 页",
+          "url": "https://www.byd.com/material/domestic-official/user-manual/ocean/2026%E6%AC%BE%E6%B5%B7%E9%B8%A5%E7%94%A8%E6%88%B7%E6%89%8B%E5%86%8C260317.pdf"
+        },
+        {
+          "document_id": "byd-haiou-manual-2026",
+          "location": "第 266 页",
+          "url": "https://www.byd.com/material/domestic-official/user-manual/ocean/2026%E6%AC%BE%E6%B5%B7%E9%B8%A5%E7%94%A8%E6%88%B7%E6%89%8B%E5%86%8C260317.pdf"
+        },
+        {
+          "document_id": "byd-haiou-manual-2026",
+          "location": "第 269 页",
+          "url": "https://www.byd.com/material/domestic-official/user-manual/ocean/2026%E6%AC%BE%E6%B5%B7%E9%B8%A5%E7%94%A8%E6%88%B7%E6%89%8B%E5%86%8C260317.pdf"
+        }
+      ],
+      "elapsed_ms": 2862.1,
+      "passed": false,
+      "failures": [
+        "missing fact: 授权服务店"
+      ]
+    },
+    {
+      "id": "M17",
+      "group": "manual",
+      "question": "海狮06EV保养周期按时间还是里程算？",
+      "vehicle_ids": [
+        "byd-2026-haishi-06-ev-1584"
+      ],
+      "expected_mode": "evidence_selected",
+      "mode": "evidence_selected",
+      "answer": "根据已收录资料，相关原文如下：\n\n[S1] 计划保养的间隔可参看周期表，按里程表的读数或时间间隔而定，以先\n到者为准。\n\n[S2] 整车保养按照以下保养时间和里程间隔执行，以先到者为准。\n\n[S3] 保养周期表中列出的检修项目以及行驶时间或距离，是假设您将车辆作\n为正常的交通工具用来运载乘员及物品而制订的，避免超过车辆的载重\n极限。",
+      "citations": [
+        {
+          "document_id": "byd-haishi-06-ev-manual-2026",
+          "location": "第 336 页",
+          "url": "https://www.byd.com/material/__CN/domestic-official/user-manual/dynasty/2026%E6%AC%BE%E6%B5%B7%E7%8B%AE06%20EV%E7%94%A8%E6%88%B7%E6%89%8B%E5%86%8C261014.pdf"
+        },
+        {
+          "document_id": "byd-haishi-06-ev-manual-2026",
+          "location": "第 337 页",
+          "url": "https://www.byd.com/material/__CN/domestic-official/user-manual/dynasty/2026%E6%AC%BE%E6%B5%B7%E7%8B%AE06%20EV%E7%94%A8%E6%88%B7%E6%89%8B%E5%86%8C261014.pdf"
+        },
+        {
+          "document_id": "byd-haishi-06-ev-manual-2026",
+          "location": "第 341 页",
+          "url": "https://www.byd.com/material/__CN/domestic-official/user-manual/dynasty/2026%E6%AC%BE%E6%B5%B7%E7%8B%AE06%20EV%E7%94%A8%E6%88%B7%E6%89%8B%E5%86%8C261014.pdf"
+        }
+      ],
+      "elapsed_ms": 2252.5,
+      "passed": true,
+      "failures": []
+    },
+    {
+      "id": "M18",
+      "group": "manual",
+      "question": "海狮06EV胎压系统告警怎么处理？",
+      "vehicle_ids": [
+        "byd-2026-haishi-06-ev-1584"
+      ],
+      "expected_mode": "evidence_selected",
+      "mode": "evidence_selected",
+      "answer": "根据已收录资料，相关原文如下：\n\n[S1] 当胎压故障警告灯点亮或闪烁，同时仪表信息显示屏显示“请检查胎压\n监测系统”，胎压显示界面数值位显示“---”时，表示胎压系统有故障。\n\n[S3] 当四轮中的任意一轮胎温值连续三分钟高于 85℃时，胎压系统会进行高温\n报警，相应轮胎胎温值变为黄色显示，轮胎长时间高温可能造成轮胎永久",
+      "citations": [
+        {
+          "document_id": "byd-haishi-06-ev-manual-2026",
+          "location": "第 49 页",
+          "url": "https://www.byd.com/material/__CN/domestic-official/user-manual/dynasty/2026%E6%AC%BE%E6%B5%B7%E7%8B%AE06%20EV%E7%94%A8%E6%88%B7%E6%89%8B%E5%86%8C261014.pdf"
+        },
+        {
+          "document_id": "byd-haishi-06-ev-manual-2026",
+          "location": "第 278 页",
+          "url": "https://www.byd.com/material/__CN/domestic-official/user-manual/dynasty/2026%E6%AC%BE%E6%B5%B7%E7%8B%AE06%20EV%E7%94%A8%E6%88%B7%E6%89%8B%E5%86%8C261014.pdf"
+        }
+      ],
+      "elapsed_ms": 3005.1,
+      "passed": false,
+      "failures": [
+        "missing fact: 服务店"
+      ]
+    },
+    {
+      "id": "M19",
+      "group": "manual",
+      "question": "海豹06GT保养计划有哪些特殊情况要提前？",
+      "vehicle_ids": [
+        "byd-2026-haibao-06-gt-1591"
+      ],
+      "expected_mode": "evidence_selected",
+      "mode": "evidence_selected",
+      "answer": "根据已收录资料，相关原文如下：\n\n[S1] 如果主要是在下列一种或一种以上的特殊条件下操作车辆，则某些保养计\n划项目需要更频繁地进行。\n路面状况\n在崎岖、泥泞或融雪路面上行驶。\n在多尘路面上行驶。\n行驶状况\n拖曳挂车，使用野营挂车或车顶托架*。\n在 8km 以内，进行反复短距离的行驶以及外界气温在零度以下。",
+      "citations": [
+        {
+          "document_id": "byd-haibao-06-gt-manual-2026",
+          "location": "第 328 页",
+          "url": "https://www.byd.com/material/__CN/domestic-official/user-manual/ocean/2026%E6%AC%BE%E6%B5%B7%E8%B1%B906GT%E7%94%A8%E6%88%B7%E6%89%8B%E5%86%8C261030.pdf"
+        }
+      ],
+      "elapsed_ms": 2249.1,
+      "passed": true,
+      "failures": []
+    },
+    {
+      "id": "M20",
+      "group": "manual",
+      "question": "海豹06GT胎压故障灯亮了该联系谁？",
+      "vehicle_ids": [
+        "byd-2026-haibao-06-gt-1591"
+      ],
+      "expected_mode": "evidence_selected",
+      "mode": "evidence_selected",
+      "answer": "根据已收录资料，相关原文如下：\n\n[S1] 此时需立刻将车辆停靠在安全的地方，并与比亚迪汽车授权\n服务店进行联系。",
+      "citations": [
+        {
+          "document_id": "byd-haibao-06-gt-manual-2026",
+          "location": "第 48 页",
+          "url": "https://www.byd.com/material/__CN/domestic-official/user-manual/ocean/2026%E6%AC%BE%E6%B5%B7%E8%B1%B906GT%E7%94%A8%E6%88%B7%E6%89%8B%E5%86%8C261030.pdf"
+        }
+      ],
+      "elapsed_ms": 1475.6,
+      "passed": true,
+      "failures": []
+    },
+    {
+      "id": "M21",
+      "group": "manual",
+      "question": "这款车胎压警告灯亮了怎么办？",
+      "vehicle_ids": [
+        "byd-2026-xia-1677"
+      ],
+      "expected_mode": "evidence_selected",
+      "mode": "evidence_selected",
+      "answer": "资料适用性提示：官网只标注夏，未说明这份手册与 2026 款各配置完全一致；配置差异应以购车合同和实车为准。\n\n根据已收录资料，相关原文如下：\n\n[S1] 当胎压故障警告灯点亮或闪烁，同时仪表信息显示屏显示“请检查胎压\n监测系统”，胎压显示界面数值位显示“---”时，表示胎压系统有故障。\n\n[S2] 在系统运行状态下，发生故障后胎压故障灯闪烁后常亮，组合仪表上显\n示“信号异常”或“请检查胎压监测系统”，请检查相应的胎压监测模块是\n否正常，是否长时间处于大电场范围内，如果长时间报警，请联系比亚\n迪汽车授权服务店处理。",
+      "citations": [
+        {
+          "document_id": "byd-xia-manual-unmarked",
+          "location": "第 59 页",
+          "url": "https://www.byd.com/material/domestic-official/user-manual/dynasty/%E5%A4%8F%E7%94%A8%E6%88%B7%E6%89%8B%E5%86%8C_250905.zip"
+        },
+        {
+          "document_id": "byd-xia-manual-unmarked",
+          "location": "第 316 页",
+          "url": "https://www.byd.com/material/domestic-official/user-manual/dynasty/%E5%A4%8F%E7%94%A8%E6%88%B7%E6%89%8B%E5%86%8C_250905.zip"
+        }
+      ],
+      "elapsed_ms": 3833.3,
+      "passed": true,
+      "failures": []
+    },
+    {
+      "id": "M22",
+      "group": "manual",
+      "question": "这款车第一次保养包括哪些？",
+      "vehicle_ids": [
+        "byd-2026-qin-l-dm-i-1668"
+      ],
+      "expected_mode": "evidence_selected",
+      "mode": "evidence_selected",
+      "answer": "根据已收录资料，相关原文如下：\n\n[S1] 车辆在 6 个月或 5000km(HEV 里程)进行首保， 保养时间和保养里程以先\n到者为准。\n首次保养项目包含整车基础保养、 更换发动机机油及机油滤清器， 检查\n发动机怠速、 曲轴箱通风系统。",
+      "citations": [
+        {
+          "document_id": "byd-qin-l-manual-2026",
+          "location": "第 355 页",
+          "url": "https://www.byd.com/material/domestic-official/user-manual/dynasty/2026%E6%AC%BE%E7%A7%A6L%20DM-i%E7%94%A8%E6%88%B7%E6%89%8B%E5%86%8C20260417.pdf"
+        }
+      ],
+      "elapsed_ms": 47.9,
+      "passed": true,
+      "failures": []
+    },
+    {
+      "id": "N01",
+      "group": "refusal",
+      "question": "这款车真实道路平均油耗是多少？",
+      "vehicle_ids": [
+        "byd-2026-xia-1677"
+      ],
+      "expected_mode": "no_evidence",
+      "mode": "no_evidence",
+      "answer": "现有资料不足以确认这个问题。请缩小车型范围或补充可信来源。",
+      "citations": [],
+      "elapsed_ms": 3.8,
+      "passed": true,
+      "failures": []
+    },
+    {
+      "id": "N02",
+      "group": "refusal",
+      "question": "秦L车主实测油耗平均多少？",
+      "vehicle_ids": [
+        "byd-2026-qin-l-dm-i-1668"
+      ],
+      "expected_mode": "no_evidence",
+      "mode": "no_evidence",
+      "answer": "现有资料不足以确认这个问题。请缩小车型范围或补充可信来源。",
+      "citations": [],
+      "elapsed_ms": 4.6,
+      "passed": true,
+      "failures": []
+    },
+    {
+      "id": "N03",
+      "group": "refusal",
+      "question": "宋L实际成交均价是多少？",
+      "vehicle_ids": [
+        "byd-2026-song-l-dm-i-1675"
+      ],
+      "expected_mode": "no_evidence",
+      "mode": "no_evidence",
+      "answer": "现有资料不足以确认这个问题。请缩小车型范围或补充可信来源。",
+      "citations": [],
+      "elapsed_ms": 8.0,
+      "passed": true,
+      "failures": []
+    },
+    {
+      "id": "N04",
+      "group": "refusal",
+      "question": "海鸥最近车主故障率是多少？",
+      "vehicle_ids": [
+        "byd-2026-haiou-1616"
+      ],
+      "expected_mode": "no_evidence",
+      "mode": "no_evidence",
+      "answer": "现有资料不足以确认这个问题。请缩小车型范围或补充可信来源。",
+      "citations": [],
+      "elapsed_ms": 2.2,
+      "passed": true,
+      "failures": []
+    },
+    {
+      "id": "N05",
+      "group": "refusal",
+      "question": "海狮06EV售后满意度几分？",
+      "vehicle_ids": [
+        "byd-2026-haishi-06-ev-1584"
+      ],
+      "expected_mode": "no_evidence",
+      "mode": "no_evidence",
+      "answer": "现有资料不足以确认这个问题。请缩小车型范围或补充可信来源。",
+      "citations": [],
+      "elapsed_ms": 2.9,
+      "passed": true,
+      "failures": []
+    },
+    {
+      "id": "N06",
+      "group": "refusal",
+      "question": "海豹06GT这月投诉量多少？",
+      "vehicle_ids": [
+        "byd-2026-haibao-06-gt-1591"
+      ],
+      "expected_mode": "no_evidence",
+      "mode": "no_evidence",
+      "answer": "现有资料不足以确认这个问题。请缩小车型范围或补充可信来源。",
+      "citations": [],
+      "elapsed_ms": 1.8,
+      "passed": true,
+      "failures": []
+    },
+    {
+      "id": "N07",
+      "group": "refusal",
+      "question": "这款车全国车主平均维修费用是多少？",
+      "vehicle_ids": [
+        "byd-2026-haibao-07-dm-i-1566"
+      ],
+      "expected_mode": "no_evidence",
+      "mode": "no_evidence",
+      "answer": "现有资料不足以确认这个问题。请缩小车型范围或补充可信来源。",
+      "citations": [],
+      "elapsed_ms": 5.4,
+      "passed": true,
+      "failures": []
+    },
+    {
+      "id": "N08",
+      "group": "refusal",
+      "question": "海狮06DM-i事故后理赔成功率？",
+      "vehicle_ids": [
+        "byd-2026-haishi-06-dm-i-1620"
+      ],
+      "expected_mode": "no_evidence",
+      "mode": "no_evidence",
+      "answer": "现有资料不足以确认这个问题。请缩小车型范围或补充可信来源。",
+      "citations": [],
+      "elapsed_ms": 4.7,
+      "passed": true,
+      "failures": []
+    },
+    {
+      "id": "N09",
+      "group": "refusal",
+      "question": "秦PLUS车主平均售后等待多久？",
+      "vehicle_ids": [
+        "byd-2026-qin-plus-dm-i-1684"
+      ],
+      "expected_mode": "no_evidence",
+      "mode": "no_evidence",
+      "answer": "现有资料不足以确认这个问题。请缩小车型范围或补充可信来源。",
+      "citations": [],
+      "elapsed_ms": 1.9,
+      "passed": true,
+      "failures": []
+    },
+    {
+      "id": "N10",
+      "group": "refusal",
+      "question": "这款车真实道路续航平均能跑多远？",
+      "vehicle_ids": [
+        "byd-2026-haibao-06-dm-i-wagon-1596"
+      ],
+      "expected_mode": "no_evidence",
+      "mode": "no_evidence",
+      "answer": "现有资料不足以确认这个问题。请缩小车型范围或补充可信来源。",
+      "citations": [],
+      "elapsed_ms": 2.7,
+      "passed": true,
+      "failures": []
+    },
+    {
+      "id": "S01",
+      "group": "scope",
+      "question": "这款车发动机规格？",
+      "vehicle_ids": [],
+      "expected_mode": "clarification",
+      "mode": "clarification",
+      "answer": "请先在左侧选定一个具体配置，再询问“这款车”。",
+      "citations": [],
+      "elapsed_ms": 6.2,
+      "passed": true,
+      "failures": []
+    },
+    {
+      "id": "S02",
+      "group": "scope",
+      "question": "这款车官方指导价？",
+      "vehicle_ids": [
+        "byd-2026-xia-1677",
+        "byd-2026-xia-1678"
+      ],
+      "expected_mode": "clarification",
+      "mode": "clarification",
+      "answer": "请先在左侧选定一个具体配置，再询问“这款车”。",
+      "citations": [],
+      "elapsed_ms": 4.2,
+      "passed": true,
+      "failures": []
+    },
+    {
+      "id": "S03",
+      "group": "scope",
+      "question": "秦L发动机规格？",
+      "vehicle_ids": [
+        "byd-2026-xia-1677"
+      ],
+      "expected_mode": "clarification",
+      "mode": "clarification",
+      "answer": "问题中的车型、年款或配置与左侧已选车辆不一致。请核对选择后再提问。",
+      "citations": [],
+      "elapsed_ms": 2.1,
+      "passed": true,
+      "failures": []
+    },
+    {
+      "id": "S04",
+      "group": "scope",
+      "question": "2025款秦L价格？",
+      "vehicle_ids": [
+        "byd-2026-qin-l-dm-i-1668"
+      ],
+      "expected_mode": "clarification",
+      "mode": "clarification",
+      "answer": "问题中的车型、年款或配置与左侧已选车辆不一致。请核对选择后再提问。",
+      "citations": [],
+      "elapsed_ms": 3.4,
+      "passed": true,
+      "failures": []
+    },
+    {
+      "id": "S05",
+      "group": "scope",
+      "question": "这款车怎么样？",
+      "vehicle_ids": [
+        "byd-2026-xia-1677"
+      ],
+      "expected_mode": "clarification",
+      "mode": "clarification",
+      "answer": "你想了解 夏 的价格配置、动力能耗、保养要求，还是故障处理？请选择一个方向继续问。",
+      "citations": [],
+      "elapsed_ms": 6.8,
+      "passed": true,
+      "failures": []
+    },
+    {
+      "id": "S06",
+      "group": "scope",
+      "question": "这款车值得买吗？",
+      "vehicle_ids": [
+        "byd-2026-xia-1677"
+      ],
+      "expected_mode": "clarification",
+      "mode": "clarification",
+      "answer": "你想了解 夏 的价格配置、动力能耗、保养要求，还是故障处理？请选择一个方向继续问。",
+      "citations": [],
+      "elapsed_ms": 4.0,
+      "passed": true,
+      "failures": []
+    },
+    {
+      "id": "S07",
+      "group": "scope",
+      "question": "这个车整体好不好？",
+      "vehicle_ids": [
+        "byd-2026-xia-1677"
+      ],
+      "expected_mode": "clarification",
+      "mode": "clarification",
+      "answer": "你想了解 夏 的价格配置、动力能耗、保养要求，还是故障处理？请选择一个方向继续问。",
+      "citations": [],
+      "elapsed_ms": 2.0,
+      "passed": true,
+      "failures": []
+    },
+    {
+      "id": "S08",
+      "group": "scope",
+      "question": "它怎么样？",
+      "vehicle_ids": [
+        "byd-2026-xia-1677"
+      ],
+      "expected_mode": "clarification",
+      "mode": "clarification",
+      "answer": "你想了解 夏 的价格配置、动力能耗、保养要求，还是故障处理？请选择一个方向继续问。",
+      "citations": [],
+      "elapsed_ms": 2.1,
+      "passed": true,
+      "failures": []
+    }
+  ]
+}
