@@ -102,11 +102,12 @@
       <section id="research-view" class="view" aria-labelledby="research-heading" hidden>
         <div class="page-heading">
           <div>
-            <span class="section-kicker">原文检索</span>
+            <span class="section-kicker">资料查询</span>
             <h1 id="research-heading">资料问答</h1>
           </div>
-          <span class="data-label">回答附原文出处</span>
+          <span class="data-label">回答附资料来源</span>
         </div>
+        <div id="research-coverage" class="research-coverage" aria-live="polite"></div>
         <form id="question-form" class="question-form">
           <label for="question-input">你想了解什么？</label>
           <div class="question-row">
@@ -114,6 +115,7 @@
             <button id="ask-button" type="submit" class="primary-button">查询资料</button>
           </div>
         </form>
+        <div id="quick-questions" class="quick-questions"></div>
         <div id="answer-status" class="status-line" role="status"></div>
         <div id="answer-content" class="answer-content"></div>
       </section>

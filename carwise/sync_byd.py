@@ -1,4 +1,4 @@
-"""Create a dated catalog snapshot from selected official BYD product pages."""
+"""Collect a dated vehicle catalog from BYD product pages."""
 
 import argparse
 from datetime import date
@@ -24,6 +24,11 @@ MODELS = (
 )
 
 FEATURES = (
+    "发动机型号",
+    "发动机型式",
+    "排量（L）",
+    "发动机最大功率（kW）",
+    "发动机最大扭矩（N·m）",
     "CLTC纯电续驶里程（km）",
     "电池容量（kWh）",
     "电机最大功率（kW）",

@@ -54,6 +54,8 @@ class DocumentRecord(BaseModel):
     vehicle_ids: list[str] = Field(default_factory=list)
     applies_to_make: str | None = None
     path: str
+    archive_path: str | None = None
+    applicability_note: str | None = None
     page_ranges: list[tuple[int, int]] = Field(default_factory=list)
     content_selector: str | None = None
 
@@ -82,12 +84,13 @@ class Citation(BaseModel):
     published_on: date | None
     location: str | None
     excerpt: str
+    applicability_note: str | None = None
 
 
 class AskResponse(BaseModel):
     answer: str
     citations: list[Citation]
-    mode: Literal["evidence_selected", "retrieval_only", "no_evidence"]
+    mode: Literal["catalog", "clarification", "evidence_selected", "retrieval_only", "no_evidence"]
 
 
 class ExtractRequest(BaseModel):

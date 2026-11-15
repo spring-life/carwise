@@ -14,6 +14,7 @@ from .extraction import FactExtractor
 from .knowledge import KnowledgeBase
 from .llm import ChatModel
 from .models import AskRequest, AskResponse, Citation, CompareRequest, DocumentRecord, ExtractRequest, ExtractResponse, VehicleVariant
+from .specs import catalog_question_answer
 
 
 settings = Settings()
@@ -158,7 +159,27 @@ def search(request: AskRequest) -> list[Citation]:
 @app.post("/api/ask", response_model=AskResponse)
 def ask(request: AskRequest) -> AskResponse:
     try:
+        refers_to_selection = any(term in request.question for term in ("这款车", "这个车", "该车", "这车", "这辆车", "它的", "它怎么样"))
+        if refers_to_selection and len(request.vehicle_ids) != 1:
+            return AskResponse(
+                answer="请先在左侧选定一个具体配置，再询问“这款车”。",
+                citations=[], mode="clarification",
+            )
         scope = app.state.catalog.scope_for_question(request.question, request.vehicle_ids)
+        if request.vehicle_ids and not scope:
+            return AskResponse(
+                answer="问题中的车型、年款或配置与左侧已选车辆不一致。请核对选择后再提问。",
+                citations=[], mode="clarification",
+            )
+        if scope and request.vehicle_ids:
+            catalog_answer = catalog_question_answer(
+                request.question, [app.state.catalog.get(vehicle_id) for vehicle_id in scope]
+            )
+            if catalog_answer is not None:
+                return catalog_answer
+            service_answer = app.state.knowledge.first_service_answer(request.question, scope)
+            if service_answer is not None:
+                return service_answer
         citations = app.state.knowledge.search(request.question, scope) if scope else []
         return app.state.chat.answer(request.question, citations)
     except ValueError as exc:

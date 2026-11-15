@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "carwise-rag"
 version = "0.1.0"
-description = "Evidence-based vehicle comparison and retrieval-augmented research assistant"
+description = "Vehicle comparison and source-backed manual Q&A"
 requires-python = ">=3.11"
 dependencies = [
   "beautifulsoup4>=4.12,<5",

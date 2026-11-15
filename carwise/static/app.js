@@ -1,4 +1,4 @@
-const state = { vehicles: [], selected: new Set(), view: "directory", modelFilter: "" };
+const state = { vehicles: [], documents: [], selected: new Set(), view: "directory", modelFilter: "" };
 const $ = (id) => document.getElementById(id);
 
 function money(value) {
@@ -46,6 +46,48 @@ function priceRange(vehicles) {
   return `${money(Math.min(...prices))} - ${money(Math.max(...prices))}`;
 }
 
+function manualFor(vehicle) {
+  return state.documents.find(item => item.path?.endsWith(".pdf") && item.linked_vehicle_ids?.includes(vehicle.id));
+}
+
+function renderResearchContext() {
+  const coverage = $("research-coverage");
+  const shortcuts = $("quick-questions");
+  coverage.replaceChildren();
+  shortcuts.replaceChildren();
+  const selected = [...state.selected].map(id => state.vehicles.find(vehicle => vehicle.id === id)).filter(Boolean);
+  if (!selected.length) {
+    coverage.append(node("p", "", "请先在左侧选择具体配置。"));
+    return;
+  }
+  coverage.append(node("h2", "", "当前资料范围"));
+  for (const vehicle of selected) {
+    const manual = manualFor(vehicle);
+    const line = node("p", "coverage-row");
+    line.append(node("strong", "", `${vehicle.model} ${vehicle.trim}`));
+    line.append(node("span", "", `官网参数 · ${manual?.indexed_chunks ? "手册全文" : manual ? "手册待索引" : "暂无手册"} · 售后流程`));
+    coverage.append(line);
+    if (manual?.applicability_note) coverage.append(node("p", "coverage-note", manual.applicability_note));
+  }
+  if (selected.length !== 1) return;
+  const hasPowerDetails = Object.keys(selected[0].features || {}).some(key => /发动机|电机最大功率|电池容量|纯电续驶里程/.test(key));
+  const prompts = [
+    hasPowerDetails ? "这款车的动力参数有哪些？" : "这款车的官方指导价是多少？",
+    "这款车胎压警告灯亮起时该怎么办？",
+    "这款车首次保养有哪些要求？",
+  ];
+  shortcuts.append(node("h2", "", "常问问题"));
+  for (const question of prompts) {
+    const button = node("button", "quick-question", question);
+    button.type = "button";
+    button.addEventListener("click", () => {
+      $("question-input").value = question;
+      ask(question);
+    });
+    shortcuts.append(button);
+  }
+}
+
 function renderDirectory() {
   const target = $("model-grid");
   target.replaceChildren();
@@ -66,6 +108,8 @@ function renderDirectory() {
     body.append(node("h3", "", model));
     body.append(node("div", "model-meta", `2026 款 · ${vehicles.length} 个配置版本`));
     body.append(node("div", "model-price", priceRange(vehicles)));
+    const manual = manualFor(vehicles[0]);
+    body.append(node("div", "model-coverage", `官网参数 · ${manual?.indexed_chunks ? "手册全文" : manual ? "手册待索引" : "暂无手册"}${manual?.applicability_note ? " · 年款待核" : ""}`));
     const action = node("button", "card-action", "查看配置 →");
     action.type = "button";
     action.addEventListener("click", () => openModel(model));
@@ -101,6 +145,7 @@ function renderSelector() {
         else state.selected.delete(vehicle.id);
         renderSelector();
         renderCompare();
+        renderResearchContext();
       });
       label.append(checkbox, node("span", "option-title", vehicle.trim), node("span", "option-price", money(vehicle.msrp)));
       group.append(label);
@@ -259,12 +304,13 @@ function renderAnswer(result) {
   target.replaceChildren();
   const panel = node("section", "answer-panel");
   panel.append(node("h2", "", "回答"), node("p", "answer-text", result.answer));
+  if (result.mode === "catalog") panel.append(node("p", "answer-mode", "官网配置快照；请以来源页面和记录日期为准。"));
   if (result.mode === "evidence_selected") panel.append(node("p", "answer-mode", "模型选择的原文已逐字校验；请以来源文件为准。"));
   if (result.mode === "retrieval_only") panel.append(node("p", "answer-mode", "当前仅展示检索结果，尚未生成回答。"));
   target.append(panel);
   if (!result.citations.length) return;
   const evidence = node("section", "evidence-list");
-  evidence.append(node("h2", "", "引用资料"));
+  evidence.append(node("h2", "", result.mode === "catalog" ? "数据来源" : "引用资料"));
   const types = { official: "官方资料", recall: "召回公告", review: "第三方评测", owner_report: "用户个案" };
   for (const citation of result.citations) {
     const item = node("article", "evidence-item");
@@ -278,7 +324,8 @@ function renderAnswer(result) {
     head.append(link);
     item.append(head);
     item.append(node("div", "evidence-meta", [types[citation.source_type] || citation.source_type, citation.published_on, citation.location].filter(Boolean).join(" · ")));
-    item.append(node("blockquote", "", citation.excerpt));
+    if (citation.applicability_note) item.append(node("p", "coverage-note", citation.applicability_note));
+    item.append(node(result.mode === "catalog" ? "div" : "blockquote", result.mode === "catalog" ? "catalog-fields" : "", citation.excerpt));
     const pageMatch = citation.location?.match(/第 (\d+) 页/);
     if (pageMatch) {
       const button = node("button", "extract-button", "抽取本页要点");
@@ -328,7 +375,9 @@ async function ask(question) {
     });
     const result = await response.json();
     if (!response.ok) throw new Error(result.detail || "查询失败");
-    setStatus("answer-status", result.citations.length ? `找到 ${result.citations.length} 条引用资料` : "没有可引用的资料");
+    setStatus("answer-status", result.mode === "clarification" ? "请补充关注点" : result.citations.length
+      ? result.mode === "catalog" ? `找到 ${result.citations.length} 条官网参数数据` : `找到 ${result.citations.length} 条引用资料`
+      : "本次没有可引用的资料");
     renderAnswer(result);
   } catch (error) {
     setStatus("answer-status", error.message, true);
@@ -383,14 +432,16 @@ async function init() {
   });
   $("document-form").addEventListener("submit", submitDocument);
   try {
-    const [vehiclesResponse, healthResponse] = await Promise.all([fetch("/api/vehicles"), fetch("/api/health")]);
-    if (!vehiclesResponse.ok || !healthResponse.ok) throw new Error("数据载入失败");
+    const [vehiclesResponse, documentsResponse, healthResponse] = await Promise.all([fetch("/api/vehicles"), fetch("/api/documents"), fetch("/api/health")]);
+    if (!vehiclesResponse.ok || !documentsResponse.ok || !healthResponse.ok) throw new Error("数据载入失败");
     state.vehicles = await vehiclesResponse.json();
+    state.documents = await documentsResponse.json();
     const health = await healthResponse.json();
     $("index-state").textContent = `车型 ${health.vehicles} · 资料片段 ${health.indexed_chunks}`;
     renderDirectory();
     renderSelector();
     renderCompare();
+    renderResearchContext();
     setView("directory");
   } catch (error) {
     setStatus("compare-status", error.message, true);
